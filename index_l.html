@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bizcastz Monitor</title>
+    <link href="css/8KMonitor-Fnac.css" rel="stylesheet" type="text/css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
+    <script src="js/jquery-1.6.2.min.js" type="text/javascript"></script>
+    <script src="toolbox.js" type="text/javascript"></script>
+    <script src="fnac_monitor_shell.js" type="text/javascript"></script>
+
+    <!--<script type="text/javascript" src="../jquery.qrcode.min.js"></script>
+-->
+    <script type="text/javascript" src="js/jquery.qrcode.js"></script>
+    <script type="text/javascript" src="js/qrcode.js"></script>
+
+    <meta
+      name="viewport"
+      content="initial-scale=1.0, width=device-width, target-densitydpi=device-dpi"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <!--  <link rel="stylesheet" type="text/css" href="scalescreen1.css"> -->
+
+    <script type="text/javascript">
+      $(window).scroll(function () {
+        scroll(0, 0);
+      });
+    </script>
+  </head>
+
+  <body>
+    <script type="text/javascript">
+      //CHANGE EVERYTIME WE MAKE CHANGES ANYWHERE
+      var myVersion = 'v6.19';
+      //------------------------
+
+      var expo_pos = 'behind';
+
+      function sidePanelAlign() {
+        myData.setVideoareaSize(1920, 1080);
+        myData.setVideoareaMargin(0, 0, 0, 0);
+      }
+    </script>
+    <div id="container" class="container">
+      <div
+        style="
+          width: 7680px;
+          color: red;
+          font-size: 72px;
+          text-align: center;
+          padding-top: 40px;
+        "
+      >
+        <lable id="lbl_debugText"></lable>
+      </div>
+      <!-- SHAPES ++++++++++++++++++++++++  JS to write i.e. class="shape_circle_red" -->
+      <div id="div_shapes_container" class="shapesContainer">
+        <div id="div_shape_mask" class="shapeMask hideShape">
+          <div id="div_shape_0" class="hideShape">
+            <div id="div_shape_text_0" class="shapeTxt"></div>
+          </div>
+          <div id="div_shape_1" class="hideShape">
+            <div id="div_shape_text_1" class="shapeTxt"></div>
+          </div>
+          <div id="div_shape_2" class="hideShape">
+            <div id="div_shape_text_2" class="shapeTxt"></div>
+          </div>
+          <div id="div_shape_3" class="hideShape">
+            <div id="div_shape_text_3" class="shapeTxt"></div>
+          </div>
+          <div id="div_shape_4" class="hideShape">
+            <div id="div_shape_text_4" class="shapeTxt"></div>
+          </div>
+          <div id="div_shape_5" class="hideShape">
+            <div id="div_shape_text_5" class="shapeTxt"></div>
+          </div>
+          <div id="div_shape_6" class="hideShape">
+            <div id="div_shape_text_6" class="shapeTxt"></div>
+          </div>
+          <div id="div_shape_7" class="hideShape">
+            <div id="div_shape_text_7" class="shapeTxt"></div>
+          </div>
+          <div id="div_shape_8" class="hideShape">
+            <div id="div_shape_text_8" class="shapeTxt"></div>
+          </div>
+          <div id="div_shape_9" class="hideShape">
+            <div id="div_shape_text_9" class="shapeTxt"></div>
+          </div>
+          <div id="div_shape_10" class="hideShape">
+            <div id="div_shape_text_10" class="shapeTxt"></div>
+          </div>
+          <div id="div_shape_11" class="hideShape">
+            <div id="div_shape_text_11" class="shapeTxt"></div>
+          </div>
+          <div id="div_shape_12" class="hideShape">
+            <div id="div_shape_text_12" class="shapeTxt"></div>
+          </div>
+          <div id="div_shape_13" class="hideShape">
+            <div id="div_shape_text_13" class="shapeTxt"></div>
+          </div>
+          <div id="div_shape_14" class="hideShape">
+            <div id="div_shape_text_14" class="shapeTxt"></div>
+          </div>
+          <div id="div_shape_15" class="hideShape">
+            <div id="div_shape_text_15" class="shapeTxt"></div>
+          </div>
+          <div id="div_shape_16" class="hideShape">
+            <div id="div_shape_text_16" class="shapeTxt"></div>
+          </div>
+          <div id="div_shape_17" class="hideShape">
+            <div id="div_shape_text_17" class="shapeTxt"></div>
+          </div>
+          <div id="div_shape_18" class="hideShape">
+            <div id="div_shape_text_18" class="shapeTxt"></div>
+          </div>
+          <div id="div_shape_19" class="hideShape">
+            <div id="div_shape_text_19" class="shapeTxt"></div>
+          </div>
+        </div>
+      </div>
+      <!-- End Shapes -->
+
+      <div
+        id="div_selected_message"
+        style="
+          visibility: hidden;
+          position: absolute;
+          top: 0;
+          left: 0;
+          z-index: 1;
+          background-color: #db222a;
+          width: 100%;
+          height: 100%;
+        "
+      >
+        <img
+          id="video_message"
+          src="selectedmessage.png"
+          width="100%"
+          height="100%"
+        />
+        <!-- Video Tag -->
+        <!-- <video id="video_message" autoplay loop muted width="100%" height="100%">
+                <source src="selectedmessage.mp4" type="video/mp4">
+            </video> -->
+      </div>
+
+      <!-- Pause Button -->
+      <div id="div_pause_button" class="pauseButton">
+        <div class="pauseBtnCnr">
+          <img src="images/pause-circle-white.png" />
+        </div>
+      </div>
+      <div id="div_notification" class="divNotification">
+        <lable id="lbl_notification" class="txtNotif"></lable>
+        <div class="notificationBG"></div>
+      </div>
+      <div id="infoTag" class="tvTagRight">
+        <div id="div_tag_mask" class="tagMask_6"></div>
+        <div class="tvTagMainCont">
+          <div class="connected">
+            <img id="m_connected" src="images/cloud-online.svg" />
+          </div>
+          <!-- Set UI Version -->
+          <div
+            id="lbl_version"
+            style="
+              position: absolute;
+              left: 265px;
+              width: 768px;
+              bottom: 10px;
+              font-family: 'Gilroy-Light';
+              font-size: 32px;
+              color: #e5e5e5;
+            "
+          ></div>
+
+          <!-- Communication Icons -->
+          <div
+            style="
+              position: absolute;
+              width: 75px;
+              height: 75px;
+              top: 160px;
+              right: 55px;
+              z-index: 10001;
+            "
+          >
+            <div id="commCloud" style="position: absolute; visibility: hidden">
+              <img src="images/comm-download.svg" width="90" />
+            </div>
+            <div id="commP2P" style="position: absolute; visibility: hidden">
+              <img src="images/comm-p2p.svg" width="90" />
+            </div>
+            <div id="commBlock" style="position: absolute; visibility: hidden">
+              <img src="images/comm-block.svg" width="90" />
+            </div>
+          </div>
+          <!--  End of Communication Icons -->
+          <div id="div_segmentation" class="segmentation">
+            <div class="segmentationTxt" id="lbl_segmentation_type">GAMING</div>
+          </div>
+          <div class="oem_logo">
+            <img id="img_logo" src="logos/samsung_logo.png" />
+          </div>
+          <div id="div_modelFullName" class="txtDesc truncate">
+            <lable id="lbl_modelFullName">
+              PREDATOR XB273UGSBMII-PRZX 27" WQHD
+            </lable>
+          </div>
+          <div id="div_inventory" class="inventory">
+            <img id="img_inventory" src="images/inventory-in.png" />
+          </div>
+
+          <!-- PRICE TAG 1 -->
+          <div id="lbl_priceLocation_1" class="priceTagPos1 priceType1">
+            <!-- Change Price Scenerio "priceType1", "priceType2", or "priceType3"  -->
+            <div class="bracketTop colorPrice2"></div>
+            <div class="bracketBot colorPrice2"></div>
+            <!-- <div id="div_nouveaute_on_off" class="nouveauteBox">Nouveaté</div> -->
+            <div id="lbl_stamp_1" class="stampPosSolde">
+              <div class="soldsBoxTxt">Soldes</div>
+              <div id="div_percent_3" class="soldsBox"></div>
+            </div>
+            <div class="stampPosAffairfnac">
+              <div class="bonplanBoxTxt">Bonplan</div>
+              <div id="div_percent_4" class="bonplanBox"></div>
+            </div>
+            <div class="stampPosDestockage">
+              <div class="destockageBoxTxt">Destockage</div>
+              <div id="div_percent_5" class="destockageBox"></div>
+            </div>
+            <div class="stampPosVenteFlash">
+              <div class="venteflashBoxTxt">Venteflash</div>
+              <div id="div_percent_6" class="venteflashBox"></div>
+            </div>
+            <div class="stampMemb">
+              <div class="adherentBox">Adherent</div>
+            </div>
+            <!--<div class="txtScrnRes"><label id="lbl_garantie_1">GARANTIE 2 ANS</label></div> -->
+            <div id="div_regPrice1" class="txtRegPrice">
+              <label id="lbl_regPrice_1"></label><sup0 id="lbl_regPriceDisplaySup_1"></sup0>
+              <div id="div_redline" class="lineRegPrice">
+                <img src="images/redLine.svg" />
+              </div>
+            </div>
+            <div id="lbl_modelSku_1" class="txtSku"></div>
+            <div id="div_copiePrivee_1" class="txtCopiePrivee">
+              copie privée:
+              <label id="lbl_copiePrivee_Txt"></label>
+              €
+            </div>
+            <div id="div_ecoPart_1" class="txtEcoPart">
+              ÉCO-PART :
+              <label id="lbl_ecoParTxt_1"></label>
+            </div>
+            <div class="priceTagTxt">
+              <label id="lbl_priceDisplay_1"></label><sup id="lbl_priceDisplaySup_1"></sup>
+            </div>
+            <div class="txtDicount">
+              <label id="lbl_discount_1"></label><sup01 id="lbl_discountSup_1"></sup01>
+            </div>
+            <div class="priceCheck_color"><img id="img_price_check_color" src="images/price-green.svg"></div>
+          </div>
+
+          <!-- DIV_SPECS -->
+          <div id="div_specs" class="divSpecs">
+            <div class="tvTagSpecCont3">
+              <div class="gridLnV1"></div>
+              <div class="gridLnV2"></div>
+
+              <div class="gridCell1">
+                <div class="barsR">
+                  <!-- For ratingbars specify calsses: barsType_1, barsType_2, or barsType_3 if no data use barsTaype_0-->
+                  <div id="div_ratingbars_2" class="barsType_1">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                  </div>
+                </div>
+                <lable class="specScreenSize1" id="lbl_spec_1_1">49"</lable>
+                <br />
+                <lable class="specScreenSize2" id="lbl_spec_1_2">68,7cm</lable>
+                <lable class="specTitleR" id="lbl_spec_2_1">RÉSOLUTION</lable>
+                <br />
+                <lable class="specLine1R" id="lbl_spec_2_2">2X WQHD</lable>
+                <br />
+                <lable class="specLine2R" id="lbl_spec_2_3">5120 x 1440</lable>
+                <div class="celldividerL"></div>
+                <div class="celldividerR"></div>
+              </div>
+
+              <div class="gridCell2">
+                <div class="barsL">
+                  <div id="div_ratingbars_3" class="barsType_1">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                  </div>
+                </div>
+                <div class="barsR">
+                  <div id="div_ratingbars_4" class="barsType_3">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                  </div>
+                </div>
+                <lable class="specTitleL" id="lbl_spec_3_1">
+                  TYPE DE DALLE
+                </lable>
+                <br />
+                <div class="specLine1L">
+                  <lable id="lbl_spec_3_2">VA/WQHD</lable>
+                </div>
+                <lable class="specTitleR" id="lbl_spec_4_1">RÉSPONCE</lable>
+                <br />
+                <lable id="lbl_spec_4_2" class="specLine1R">1</lable>
+                <br />
+                <lable id="lbl_spec_4_3" class="specLine2R">
+                  millisecondes
+                </lable>
+                <div class="celldividerC"></div>
+              </div>
+
+              <div class="gridCell3">
+                <div class="barsR">
+                  <div id="div_ratingbars_5" class="barsType_3">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                  </div>
+                </div>
+
+                <lable class="specTitleC" id="lbl_spec_5_1">
+                  SYNCHRONISATION
+                </lable>
+                <div>
+                  <img
+                    class="syncImg1"
+                    id="img_spec_5_2"
+                    src="images/AMD-FreeSync-Premium-Pro.png"
+                  />
+                </div>
+                <div>
+                  <img
+                    class="syncImg2"
+                    id="img_spec_5_3"
+                    src="images/Nvidia-G-Sync.png"
+                  />
+                </div>
+                <div>
+                  <img
+                    class="syncImg3"
+                    id="img_spec_5_4"
+                    src="images/ELMB.png"
+                  />
+                </div>
+                <div class="celldividerC"></div>
+              </div>
+
+              <div class="gridCell4">
+                <div class="barsR">
+                  <div id="div_ratingbars_6" class="barsType_3">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                  </div>
+                </div>
+                <lable class="specTitleC" id="lbl_spec_6_1">CONNECTIQUE</lable>
+                <div class="containerGrid">
+                  <div class="connectionGrid">
+                    <div class="div1" id="lbl_spec_6_2">1 HDMI</div>
+                    <div class="div2" id="lbl_spec_6_3">1 Thunder.</div>
+                    <div class="div3" id="lbl_spec_6_4">3 USB 3.0</div>
+                    <div class="div4" id="lbl_spec_6_5">2 DP</div>
+                    <div class="div5" id="lbl_spec_6_6">1 USB</div>
+                    <div class="div6" id="lbl_spec_6_7">1 USB C</div>
+                    <div class="div7" id="lbl_spec_6_8">1 VGA</div>
+                    <div class="div8" id="lbl_spec_6_9">1 USB 2.0</div>
+                    <div class="div9" id="lbl_spec_6_10">1 Jack</div>
+                  </div>
+                </div>
+                <div class="celldividerC"></div>
+              </div>
+
+              <div class="gridCell5">
+                <div class="barsL">
+                  <div id="div_ratingbars_7" class="barsType_1">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                  </div>
+                </div>
+                <div class="barsR">
+                  <div id="div_ratingbars_8" class="barsType_2">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                  </div>
+                </div>
+                <lable class="specTitleL" id="lbl_spec_7_1">CONSOMMATION</lable>
+                <br />
+                <lable id="lbl_spec_7_2" class="specLine1L">158</lable>
+                <lable id="lbl_spec_7_3" class="specLine2L">kWh/an</lable>
+
+                <lable class="specTitleR" id="lbl_spec_8_1">CONTRASTE</lable>
+                <br />
+                <lable id="lbl_spec_8_2" class="specLine1R">1000:1</lable>
+                <lable id="lbl_spec_8_3" class="specLine2R">un</lable>
+                <div class="celldividerL"></div>
+                <div class="celldividerR"></div>
+              </div>
+
+              <div class="gridCell6">
+                <div class="barsL">
+                  <div id="div_ratingbars_9" class="barsType_3">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                  </div>
+                </div>
+                <div class="barsR">
+                  <div id="div_ratingbars_10" class="barsType_3">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                  </div>
+                </div>
+                <lable class="specTitleL" id="lbl_spec_9_1">LUMINSOSITÉ</lable>
+                <br />
+                <lable id="lbl_spec_9_2" class="specLine1L">
+                  400 Cd/m
+                  <subscript style="vertical-align: super; font-size: 30px">
+                    2
+                  </subscript>
+                </lable>
+                <lable id="lbl_spec_9_3" class="specLine2L">un</lable>
+
+                <lable class="specTitleR" id="lbl_spec_10_1">
+                  ANGLE DE VISION
+                </lable>
+                <br />
+                <lable id="lbl_spec_10_2" class="specLine1R">
+                  178 ° | 178 °
+                </lable>
+                <br />
+                <lable id="lbl_spec_10_3" class="specLine2R">h | v</lable>
+                <div class="celldividerL"></div>
+                <div class="celldividerR"></div>
+              </div>
+
+              <div class="gridCell7">
+                <div class="barsL">
+                  <div id="div_ratingbars_11" class="barsType_2">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                  </div>
+                </div>
+                <div class="barsR">
+                  <div id="div_ratingbars_12" class="barsType_2">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                  </div>
+                </div>
+                <lable class="specTitleL" id="lbl_spec_11_1">RAPPORT</lable>
+                <br />
+                <lable id="lbl_spec_11_2" class="specLine1L">1000:1</lable>
+                <lable id="lbl_spec_11_3" class="specLine2L"></lable>
+
+                <lable class="specTitleR" id="lbl_spec_12_1">FRÉQUENCE</lable>
+                <br />
+                <div class="specLine1R">
+                  <lable id="lbl_spec_12_2">240</lable>
+                  <lable id="lbl_spec_12_3">Hz</lable>
+                </div>
+              </div>
+
+              <div class="gridCell8">
+                <lable class="specTitleC" id="lbl_spec_13_1">DIMENSIONS</lable>
+                <br />
+                <div>
+                  <div class="specLine1C">
+                    <lable id="lbl_spec_13_2">611.6 x5 30.03 x 236.3 mm</lable>
+                  </div>
+                </div>
+              </div>
+              <!-- Energy TAG -->
+              <div id="div_energy_position" class="engTagContainer">
+                <!-- replace classes for energy rate i.e. energy_a, energy_b, etc. -->
+                <div id="div_energy_rate" class="energy_a"></div>
+                <div class="energyOEM"><lable id="lbl_energy_oem"></lable></div>
+                <div class="energyModel">
+                  <lable id="lbl_energy_model">
+                    PREDATOR XB273UGSBMII-PRZX 27" WQHD
+                  </lable>
+                </div>
+                <div class="energyWattsTxt">
+                  <lable id="lbl_energy_kwh">150</lable>
+                </div>
+                <div class="energykWh_1000h">kWh/1000h</div>
+                <div class="energy_displayRes_horizontal">
+                  <lable id="lbl_energy_displayres_horizontal">1920px</lable>
+                </div>
+                <div class="energy_displayRes_vertical">
+                  <lable id="lbl_energy_displayres_vertical">1080ox</lable>
+                </div>
+                <div class="energy_videosize_cm">
+                  <lable id="lbl_energy_videosize_cm">105 cm</lable>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End of DIV_SPECS -->
+        </div>
+      </div>
+
+      <!-- Energy TAG Opposite Side -->
+
+      <div id="energyTag" class="NOTtvTagTemp">
+        <div id="div_energy_mask" class="qrTagBG1"></div>
+        <div class="utilization">
+          <div class="titleUtilisation">
+            <lable id="lbl_utilisation_type">Utilisation</lable>
+          </div>
+
+          <div id="div_utilisation_1" class="utilisation_1 utilisation_mode_3">
+            <circle></circle>
+            <lable id="lbl_utilisation_name_1">Utilisation 1</lable>
+          </div>
+
+          <div id="div_utilisation_2" class="utilisation_2 utilisation_mode_1">
+            <circle></circle>
+            <lable id="lbl_utilisation_name_2">Utilisation 2</lable>
+          </div>
+          <div id="div_utilisation_3" class="utilisation_3 utilisation_mode_3">
+            <circle></circle>
+            <lable id="lbl_utilisation_name_3">Utilisation 3</lable>
+          </div>
+
+          <div id="div_utilisation_4" class="utilisation_4 utilisation_mode_3">
+            <circle></circle>
+            <lable id="lbl_utilisation_name_4">Utilisation 4</lable>
+          </div>
+
+          <div id="div_utilisation_5" class="utilisation_5 utilisation_mode_1">
+            <circle></circle>
+            <lable id="lbl_utilisation_name_5">Utilisation 5</lable>
+          </div>
+          <div id="div_utilisation_6" class="utilisation_6 utilisation_mode_1">
+            <circle></circle>
+            <lable id="lbl_utilisation_name_6">Utilisation 6</lable>
+          </div>
+          <div id="div_utilisation_7" class="utilisation_7 utilisation_mode_3">
+            <circle></circle>
+            <lable id="lbl_utilisation_name_7">Utilisation 7</lable>
+          </div>
+          <div id="div_utilisation_8" class="utilisation_8 utilisation_mode_3">
+            <circle></circle>
+            <lable id="lbl_utilisation_name_8">Utilisation 8</lable>
+          </div>
+        </div>
+        <!-- 
+			<div id="div_qr_message" class="">
+				<div class="qrIconPos"><img src="images/qrIcon.png" width="150"></div>
+				<div class="qrTxtPos">Scannez QR pour tester la Monitor</div>
+			</div> --
+
+			<!-- QR TAG -->
+        <div class="retailerLogo">
+          <img src="images/retailerlogo.png" width="750" />
+        </div>
+        <div class="QR">
+          <div class="tvTagQRCont" id="div_qr_display">
+            <div class="qrDIV" id="qrcodeCanvas"></div>
+            <div class="compareTlt">ESSAYER ET COMPARER</div>
+          </div>
+        </div>
+        <!-- Benefits -->
+        <div class="benefits">
+          <div class="benef_gridLnV1"></div>
+          <lable id="lbl_benefits_title" class="benefits_title">
+            BÉNÉFICES
+          </lable>
+          <div class="bnfts_gridCell1">
+            <lable class="specTitleL" id="lbl_benefit_title_1">Benefit 1</lable>
+            <lable class="specLine1L" id="lbl_benefit_1">OUI</lable>
+            <lable class="specTitleR" id="lbl_benefit_title_2">Benefit 2</lable>
+            <lable class="specLine1R" id="lbl_benefit_2">OUI</lable>
+            <div class="celldividerL"></div>
+            <div class="celldividerR"></div>
+          </div>
+          <div class="bnfts_gridCell2">
+            <lable class="specTitleL" id="lbl_benefit_title_3">Benefit 3</lable>
+            <lable class="specLine1L" id="lbl_benefit_3">OUI</lable>
+            <lable class="specTitleR" id="lbl_benefit_title_4">Benefit 4</lable>
+            <lable class="specLine1R" id="lbl_benefit_4">OUI</lable>
+            <div class="celldividerL"></div>
+            <div class="celldividerR"></div>
+          </div>
+          <div class="bnfts_gridCell3">
+            <lable class="specTitleL" id="lbl_benefit_title_5">Benefit 5</lable>
+            <lable class="specLine1L" id="lbl_benefit_5">OUI</lable>
+            <lable class="specTitleR" id="lbl_benefit_title_6">Benefit 6</lable>
+            <lable class="specLine1R" id="lbl_benefit_6">OUI</lable>
+            <div class="celldividerL"></div>
+            <div class="celldividerR"></div>
+          </div>
+          <div class="bnfts_gridCell4">
+            <lable class="specTitleL" id="lbl_benefit_title_7">Benefit 7</lable>
+            <lable class="specLine1L" id="lbl_benefit_7">OUI</lable>
+            <lable class="specTitleR" id="lbl_benefit_title_8">Benefit 8</lable>
+            <lable class="specLine1R" id="lbl_benefit_8">OUI</lable>
+            <div class="celldividerL"></div>
+            <div class="celldividerR"></div>
+          </div>
+          <div class="bnfts_gridCell5">
+            <lable class="specTitleL" id="lbl_benefit_title_9">Benefit 9</lable>
+            <lable class="specLine1L" id="lbl_benefit_9">OUI</lable>
+            <lable class="specTitleR" id="lbl_benefit_title_10">
+              Benefit 10
+            </lable>
+            <lable class="specLine1R" id="lbl_benefit_10">OUI</lable>
+            <div class="celldividerL"></div>
+            <div class="celldividerR"></div>
+          </div>
+          <div class="bnfts_gridCell6">
+            <lable class="specTitleL" id="lbl_benefit_title_11">
+              Benefit 11
+            </lable>
+            <lable class="specLine1L" id="lbl_benefit_11">OUI</lable>
+            <lable class="specTitleR" id="lbl_benefit_title_12">
+              Benefit 12
+            </lable>
+            <lable class="specLine1R" id="lbl_benefit_12">OUI</lable>
+          </div>
+        </div>
+      </div>
+      <!-- HTML DIV --->
+      <div
+        id="htmldiv"
+        style="
+          visibility: hidden;
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 7680px;
+          height: 4320px;
+          z-index: -1;
+        "
+      >
+        <iframe
+          style="
+            width: 7680px;
+            height: 4320px;
+            max-width: 100% !important;
+            max-height: 100% !important;
+          "
+          id="htmlurl"
+          src=""
+          scrolling="no"
+          frameborder="0"
+          width="7680"
+          height="4320"
+        ></iframe>
+        <image
+          style="
+            position: absolute;
+            top: 0;
+            left: 0;
+            max-width: 100% !important;
+            max-height: 100% !important;
+          "
+          id="htmlimg"
+          src=""
+          scrolling="no"
+        ></image>
+      </div>
+    </div>
+    <!-- end of container -->
+  </body>
+  <script type="text/javascript">
+    //	document.getElementById("engRate").className = "aPlus2";
+
+    //DISPLAY THE VERSION WITH LAST MODIFIED DATE OF FILE
+    document.getElementById('lbl_version').style.textAlign = 'right';
+    document.getElementById('lbl_version').innerHTML =
+      myVersion +
+      ' -- ' +
+      document.lastModified +
+      '<br>' +
+      $(window).width() +
+      ' x ' +
+      $(window).height();
+  </script>
+</html>
