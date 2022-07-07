@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?><STORSModelInformation name="model">
+<model name="model">
+        <model_full_name>Acer Nitro XV240YPbmiiprx 23,8" Full HD IPS 165 Hz</model_full_name>
+        <model_sku>9165320 - 0</model_sku>
+        <manufacturer_name>Acer</manufacturer_name>
+        <model_number>Acer Nitro XV240YPbmiiprx 23,8" Full HD IPS 165 Hz</model_number>
+        <model_color></model_color>
+        <model_category>Tablet</model_category>
+        <customer_rating>4.5</customer_rating>
+        <customer_reviews>20</customer_reviews>
+        <model_segment></model_segment>
+        <modelean_rating></modelean_rating>
+        <spareparts_enddate>2 ANS</spareparts_enddate>
+        <processor_cpu></processor_cpu>
+        <processor_speed></processor_speed>
+        <genius_rating></genius_rating>
+        <hard_drive></hard_drive>
+        <ram></ram>
+        <wireless></wireless>
+        <graphics_card brand=""></graphics_card>
+        <screen_resolution> x </screen_resolution>
+        <screen_type></screen_type>
+        <screen_size></screen_size>
+        <weight></weight>
+        <height></height>
+        <width></width>
+        <depth></depth>
+        <usb_ports></usb_ports>
+        <operating_system></operating_system>
+        <card_reader></card_reader>
+        <wireless3g></wireless3g>
+        <connections></connections>
+        <battery></battery>
+        <optical></optical>
+        <other></other>
+        <accessories></accessories>
+        <touchscreen>0</touchscreen>
+        <bluetooth></bluetooth>
+        <webcam></webcam>
+        <energy_star></energy_star>
+        <low_price_guarantee></low_price_guarantee>
+        <plan_1yr></plan_1yr>
+        <plan_1yr_price></plan_1yr_price>
+        <plan_2yr></plan_2yr>
+        <plan_2yr_price></plan_2yr_price>
+        <plan_3yr></plan_3yr>
+        <plan_3yr_price></plan_3yr_price>
+        <chassis_code></chassis_code>
+        <chassis_sku>9165320</chassis_sku>
+        <chassis_sku_1>9165320</chassis_sku_1>
+        <price_sku_1>249.99</price_sku_1>
+        <chassis_count>1</chassis_count>
+        <device_code_url>FnacTVs.com</device_code_url> 
+     <shape_duration_onscreen_inseconds>120</shape_duration_onscreen_inseconds>
+ <!-- DUMP OF TYPE TABLE --> 
+    <type_id>27270</type_id> 
+    <type_name>Acer Nitro XV240YPbmiiprx 23,8" Full HD IPS 165 Hz</type_name> 
+    <type_description>Ecran PC Gaming Acer Nitro XV240YPbmiiprx 23,8" Full</type_description> 
+    <playlist_id>0</playlist_id> 
+    <tablet_asset_id>0</tablet_asset_id> 
+    <type_modified_datetime>6/4/2022 3:25:00 AM</type_modified_datetime> 
+    <type_modified_datetime_oa>3/4/2022 7:34:31 AM</type_modified_datetime_oa> 
+    <type_create_datetime>8/23/2021 4:54:38 AM</type_create_datetime> 
+    <type_brandId>22</type_brandId> 
+    <type_category_desc>MONITOR</type_category_desc> 
+    <type_category>0</type_category> 
+    <type_customer_rating>4.5</type_customer_rating> 
+    <type_modelname_value>Ecran PC Gaming  Nitro XV240YPbmiiprx 23,8" Full HD IPS 165 Hz</type_modelname_value> 
+    <type_modeldesc_value>Ecran PC Gaming Acer Nitro XV240YPbmiiprx 23,8" Full</type_modeldesc_value> 
+    <type_modelnumber_value>Acer Nitro XV240YPbmiiprx 23,8" Full HD IPS 165 Hz</type_modelnumber_value> 
+    <type_modeltype_value>MONITEUR</type_modeltype_value> 
+    <type_modeltype2_value>Tablet</type_modeltype2_value> 
+    <type_modelupc_value></type_modelupc_value> 
+    <type_modelcolor_value></type_modelcolor_value> 
+    <type_manufacturername_value>Acer</type_manufacturername_value> 
+    <type_manufacturerpartnumber_value></type_manufacturerpartnumber_value> 
+    <type_manufacturerlogo_value></type_manufacturerlogo_value> 
+    <type_memorysize_value></type_memorysize_value> 
+    <type_memorysize_rating></type_memorysize_rating> 
+    <type_memorytype_value></type_memorytype_value> 
+    <type_disksize_value></type_disksize_value> 
+    <type_disksize_rating></type_disksize_rating> 
+    <type_diskspeed_value></type_diskspeed_value> 
+    <type_os_value></type_os_value> 
+    <type_cpu_value></type_cpu_value> 
+    <type_cpubrand_value></type_cpubrand_value> 
+    <type_cputype_value></type_cputype_value> 
+    <type_cpuspeed_value></type_cpuspeed_value> 
+    <type_cpurating_value></type_cpurating_value> 
+    <type_cpuinfo_value></type_cpuinfo_value> 
+    <type_cpubadge_value></type_cpubadge_value> 
+    <type_cpubadge_num_value></type_cpubadge_num_value> 
+    <type_geniusrating_value></type_geniusrating_value> 
+    <type_geniusrating_rating></type_geniusrating_rating> 
+    <type_videocard_value></type_videocard_value> 
+    <type_videomemory_value></type_videomemory_value> 
+    <type_videotype_value></type_videotype_value> 
+    <type_videodesc_value></type_videodesc_value> 
+    <type_videosize_value></type_videosize_value> 
+    <type_videores_value> x </type_videores_value> 
+    <type_dimheight_value></type_dimheight_value> 
+    <type_dimwidth_value></type_dimwidth_value> 
+    <type_dimdepth_value></type_dimdepth_value> 
+    <type_dimweight_value></type_dimweight_value> 
+    <type_optical_value></type_optical_value> 
+    <type_media_value></type_media_value> 
+    <type_ethernet_value></type_ethernet_value> 
+    <type_wireless_value></type_wireless_value> 
+    <type_3g_value></type_3g_value> 
+    <type_4g_value></type_4g_value> 
+    <type_modem_value></type_modem_value> 
+    <type_bluetooth_value></type_bluetooth_value> 
+    <type_webcam_value></type_webcam_value> 
+    <type_sound_value></type_sound_value> 
+    <type_other_value></type_other_value> 
+    <type_conn_value></type_conn_value> 
+    <type_usb_value></type_usb_value> 
+    <type_software_value></type_software_value> 
+    <type_modelsku_value>9165320</type_modelsku_value> 
+    <type_model_bios_name></type_model_bios_name> 
+    <type_cardreader_value></type_cardreader_value> 
+    <type_fingerprintreader_value></type_fingerprintreader_value> 
+    <type_dedicatedgraphicsmemory_value></type_dedicatedgraphicsmemory_value> 
+    <type_blueray_value></type_blueray_value> 
+    <type_accessories_value></type_accessories_value> 
+    <type_battery_value></type_battery_value> 
+    <type_wirelesskeyboard_value></type_wirelesskeyboard_value> 
+    <type_wirelessmouse_value></type_wirelessmouse_value> 
+    <type_model_overview></type_model_overview> 
+    <type_new_model>1</type_new_model> 
+    <type_dimweight_rating>0</type_dimweight_rating> 
+    <type_active>1</type_active> 
+    <type_attachment1_id></type_attachment1_id> 
+    <type_attachment2_id></type_attachment2_id> 
+    <type_attachment3_id></type_attachment3_id> 
+    <type_attachment4_id></type_attachment4_id> 
+    <type_attachment5_id></type_attachment5_id> 
+    <type_attachment6_id></type_attachment6_id> 
+    <type_attachment7_id></type_attachment7_id> 
+    <type_attachment8_id></type_attachment8_id> 
+    <type_base_score>0</type_base_score> 
+    <type_cpu_score>0</type_cpu_score> 
+    <type_memory_score>0</type_memory_score> 
+    <type_disk_score>0</type_disk_score> 
+    <type_graphics_score>0</type_graphics_score> 
+    <type_gaming_score>0</type_gaming_score> 
+    <type_graphicsmemory_winsat>0</type_graphicsmemory_winsat> 
+    <type_videomemory_winsat>0</type_videomemory_winsat> 
+    <type_systemvideomemory_winsat>0</type_systemvideomemory_winsat> 
+    <type_chassis></type_chassis> 
+    <type_inventory>1</type_inventory> 
+    <type_touchscreen>0</type_touchscreen> 
+    <type_cpubadge_display></type_cpubadge_display> 
+    <type_modelnum_value></type_modelnum_value> 
+    <type_customer_reviews>20</type_customer_reviews> 
+    <type_product_id>14122990</type_product_id> 
+    <type_tv_type></type_tv_type> 
+    <type_tv_class></type_tv_class> 
+    <type_tv_class_id></type_tv_class_id> 
+    <type_tv_subclass></type_tv_subclass> 
+    <type_tv_subclassid></type_tv_subclassid> 
+    <type_depth_with_stand></type_depth_with_stand> 
+    <type_height_with_stand></type_height_with_stand> 
+    <type_screen_class></type_screen_class> 
+    <type_video_refresh></type_video_refresh> 
+    <type_surround></type_surround> 
+    <type_smart_tv></type_smart_tv> 
+    <type_component_video></type_component_video> 
+    <type_dvi></type_dvi> 
+    <type_hdmi>2</type_hdmi> 
+    <type_pc_input></type_pc_input> 
+    <type_vchip></type_vchip> 
+    <type_energy_star></type_energy_star> 
+    <type_headphone></type_headphone> 
+    <type_plan_1yr></type_plan_1yr> 
+    <type_plan_1yr_price></type_plan_1yr_price> 
+    <type_plan_2yr></type_plan_2yr> 
+    <type_plan_2yr_price></type_plan_2yr_price> 
+    <type_plan_3yr></type_plan_3yr> 
+    <type_plan_3yr_price></type_plan_3yr_price> 
+    <type_low_price_guarantee></type_low_price_guarantee> 
+    <type_segment_type></type_segment_type> 
+    <type_tablet_rooted>0</type_tablet_rooted> 
+    <type_modelean>4710180589931</type_modelean> 
+    <type_modelean_rating></type_modelean_rating> 
+    <type_spareparts_enddate>2 ANS</type_spareparts_enddate> 
+    <type_width_with_stand_value></type_width_with_stand_value> 
+    <type_videosize_inch_value></type_videosize_inch_value> 
+    <type_videosize_cm_value></type_videosize_cm_value> 
+    <type_hdr></type_hdr> 
+    <type_tuner></type_tuner> 
+    <type_screen_backlighting></type_screen_backlighting> 
+    <type_energy_class>F</type_energy_class> 
+    <type_power_watts_on_value></type_power_watts_on_value> 
+    <type_power_watts_off_value></type_power_watts_off_value> 
+    <type_virtual_assistant></type_virtual_assistant> 
+    <type_guarantee></type_guarantee> 
+    <type_guarantee_price></type_guarantee_price> 
+    <type_guarantee_sku></type_guarantee_sku> 
+    <type_energy_annual></type_energy_annual> 
+    <type_offer_credit></type_offer_credit> 
+    <type_offer_service></type_offer_service> 
+    <type_segment_text></type_segment_text> 
+    <type_segment_name></type_segment_name> 
+    <type_offer_credit_text></type_offer_credit_text> 
+    <type_camera_value></type_camera_value> 
+    <type_memorysize_type></type_memorysize_type> 
+    <type_disksize_type></type_disksize_type> 
+    <type_segment_uses></type_segment_uses> 
+    <type_energy_low_value></type_energy_low_value> 
+    <type_energy_high_value></type_energy_high_value> 
+    <type_energy_range_value></type_energy_range_value> 
+    <type_disk_interface>0</type_disk_interface> 
+    <type_disk_other></type_disk_other> 
+    <type_plan_4yr></type_plan_4yr> 
+    <type_plan_4yr_price></type_plan_4yr_price> 
+    <type_plan_5yr></type_plan_5yr> 
+    <type_plan_5yr_price></type_plan_5yr_price> 
+    <type_energy_kwh>41</type_energy_kwh> 
+    <type_viewing_distance></type_viewing_distance> 
+    <type_offers_message></type_offers_message> 
+    <type_formfactor>MONITOR</type_formfactor> 
+    <type_url_sku> https://www.fnac.com/a14122990</type_url_sku> 
+    <type_price_display></type_price_display> 
+    <type_sim_value></type_sim_value> 
+    <type_segment_color></type_segment_color> 
+    <type_resolution_value></type_resolution_value> 
+    <type_recommend_value></type_recommend_value> 
+    <type_modeldisplay_value></type_modeldisplay_value> 
+    <type_subcategory_value>MONITEUR</type_subcategory_value> 
+    <type_gps_value></type_gps_value> 
+    <type_nfc_value></type_nfc_value> 
+    <type_mobilenetwork_value></type_mobilenetwork_value> 
+    <type_headphone_value></type_headphone_value> 
+    <type_smart_platform_value></type_smart_platform_value> 
+    <type_audio_value></type_audio_value> 
+    <type_dlna_value></type_dlna_value> 
+    <type_plan_name></type_plan_name> 
+    <type_active_date_change>6/4/2022 3:25:00 AM</type_active_date_change> 
+    <type_energy_head></type_energy_head> 
+    <type_energy_body></type_energy_body> 
+    <type_energy_member></type_energy_member> 
+    <type_energy_string></type_energy_string> 
+    <type_energy_legal1></type_energy_legal1> 
+    <type_energy_legal2></type_energy_legal2> 
+    <type_exclusivity_value></type_exclusivity_value> 
+    <type_segment_id></type_segment_id> 
+    <type_segment_display></type_segment_display> 
+    <type_repairability_value></type_repairability_value> 
+    <type_repairability_color></type_repairability_color> 
+    <type_accelerometer_value></type_accelerometer_value> 
+    <type_gyroscope_value></type_gyroscope_value> 
+    <type_cellular_value></type_cellular_value> 
+    <type_utilization_title>UTILISATION</type_utilization_title> 
+    <type_utilization_text>MULTIMEDIA~BUREAUTIQUE~STREAMING~GAMER~PHOTO~GRAPHISME~PRODUCTION</type_utilization_text> 
+    <type_utilization_buttons>3113111</type_utilization_buttons> 
+    <type_videobrand_value></type_videobrand_value> 
+    <type_utilization_name></type_utilization_name> 
+    <type_exclusivity></type_exclusivity> 
+    <type_lab></type_lab> 
+    <type_environment_value></type_environment_value> 
+    <type_energy_legal></type_energy_legal> 
+    <type_category_value>Moniteur</type_category_value> 
+    <type_universe_value>Informatique</type_universe_value> 
+    <type_gamer>0</type_gamer> 
+    <type_photo_url>https://static.fnac-static.com/multimedia/Images/FR/MDM/67/a5/d4/13935975/3756-1/tsp20220513081355/Ecran-PC-Gaming-Acer-Nitro-XV240YPbmiiprx-23-8-Full-HD-IPS-165-Hz.jpg</type_photo_url> 
+    <type_photo_name>https://bizcastzcloud.com/photos/FNAC__9165320_Ecran-PC-Gaming-Acer-Nitro-XV240YPbmiiprx-23-8-Full-HD-IPS-165-Hz.jpg</type_photo_name> 
+    <type_cpuseries_number></type_cpuseries_number> 
+    <type_memorysize_value_number></type_memorysize_value_number> 
+    <type_disksize_value_number></type_disksize_value_number> 
+    <type_videocard_value_number></type_videocard_value_number> 
+    <type_videocard_value_range></type_videocard_value_range> 
+    <type_videocard_value_number_post></type_videocard_value_number_post> 
+    <type_video_refresh_number></type_video_refresh_number> 
+    <type_videores_value_number></type_videores_value_number> 
+    <type_videocard_series></type_videocard_series> 
+    <type_formfactor_segment></type_formfactor_segment> 
+    <type_display_resolution></type_display_resolution> 
+    <type_display_resolution_title></type_display_resolution_title> 
+    <type_display_resolution_unit>pixels</type_display_resolution_unit> 
+    <type_display_resolution_horizontal>0</type_display_resolution_horizontal> 
+    <type_display_resolution_vertical>0</type_display_resolution_vertical> 
+    <type_display_frequency></type_display_frequency> 
+    <type_display_frequency_title>FRÉQUENCE</type_display_frequency_title> 
+    <type_display_frequency_unit></type_display_frequency_unit> 
+    <type_display_response_time>1</type_display_response_time> 
+    <type_display_response_title>RÉSPONSE</type_display_response_title> 
+    <type_display_response_unit>millisecondes</type_display_response_unit> 
+    <type_display_colors>,</type_display_colors> 
+    <type_display_colors_title>COULEURS</type_display_colors_title> 
+    <type_display_colors_unit></type_display_colors_unit> 
+    <type_display_angle>178 ° | 178 °</type_display_angle> 
+    <type_display_angle_horizontal>178 °</type_display_angle_horizontal> 
+    <type_display_angle_vertical>178 °</type_display_angle_vertical> 
+    <type_display_angle_unit>h | v</type_display_angle_unit> 
+    <type_display_contrast>1000 : 1</type_display_contrast> 
+    <type_display_contrast_title>CONTRASTE</type_display_contrast_title> 
+    <type_display_contrast_unit></type_display_contrast_unit> 
+    <type_display_luminosity>250</type_display_luminosity> 
+    <type_display_luminosity_title>LUMINOSITÉ</type_display_luminosity_title> 
+    <type_display_luminosity_unit>Cd/m²</type_display_luminosity_unit> 
+    <type_display_curved></type_display_curved> 
+    <type_display_curved_title></type_display_curved_title> 
+    <type_display_curved_unit></type_display_curved_unit> 
+    <type_display_pitch></type_display_pitch> 
+    <type_display_pitch_title></type_display_pitch_title> 
+    <type_display_pitch_unit></type_display_pitch_unit> 
+    <type_display_connections></type_display_connections> 
+    <type_display_connections_title>ENTRÉE(S)</type_display_connections_title> 
+    <type_display_connections_line1>2 HDMI 2.0</type_display_connections_line1> 
+    <type_display_connections_line2>1 DisplayPort 1.2</type_display_connections_line2> 
+    <type_display_connections_line3></type_display_connections_line3> 
+    <type_display_compatibility></type_display_compatibility> 
+    <type_display_compatibility_string></type_display_compatibility_string> 
+    <type_display_compatibility_1>AMD FreeSync Premium</type_display_compatibility_1> 
+    <type_display_compatibility_2></type_display_compatibility_2> 
+    <type_display_compatibility_3></type_display_compatibility_3> 
+    <type_display_compatibility_title>COMPATIBILITÉ</type_display_compatibility_title> 
+    <type_display_compatibility_unit></type_display_compatibility_unit> 
+    <type_display_vga></type_display_vga> 
+    <type_display_displayport>1</type_display_displayport> 
+    <type_display_vesa></type_display_vesa> 
+    <type_display_vesa_title></type_display_vesa_title> 
+    <type_display_vesa_unit></type_display_vesa_unit> 
+    <type_customer_rating_title>NOTES</type_customer_rating_title> 
+    <type_customer_rating_denominator>5</type_customer_rating_denominator> 
+    <type_lab_title></type_lab_title> 
+    <type_lab_denominator></type_lab_denominator> 
+    <type_dimension_title></type_dimension_title> 
+    <type_dimension_string></type_dimension_string> 
+    <type_display_angle_title>ANGLE DE VISION</type_display_angle_title> 
+    <type_display_total>3</type_display_total> 
+    <type_energy_url></type_energy_url> 
+    <type_energy_name>4710180589931-energy.jpg</type_energy_name> 
+    <type_specs>"~ cm|RESOLUTION~FULL HD~~1|DALLE~IPS~3|RESPONSE~1~millisecondes~3|SYNCHRONISATION~AMD FreeSync Premium~~~2|CONNECTIQUE~2 HDMI 2.0~1 DisplayPort 1.2~~~~~~~1 Jack Stéréo 3.5 mm|CONSOMMATION~41~kWh/1000~|CONTRASTE~1000 : 1~|LUMINOSITE~250~Cd/m²~1|ANGLE DE VISION~178 ° | 178 °~h | v|RAPPORT~~~|FREQUENCE~0~~1|DIMENSIONS (L X H X L)~ x  x </type_specs> 
+    <type_benefits>BÉNÉFICES|ANTI-BLEUE~OUI|ANTI-REFLET~OUI|HDR~OUI|INCLINABLE~NON|PIED ADJUST~NON|HAUT PARLEUR~OUI|PIVOTABLE~NON|FIXATION~100x100|WIFI~NON|BLUETOOTH~NON|WEBCAM~NON|TACTILE~NON</type_benefits> 
+</model>
+</STORSModelInformation>

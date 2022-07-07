@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<STORSPricingInformation name="period">
+<Period name="period">
+<PingPeriod>300</PingPeriod>
+<UpdatePeriod>5</UpdatePeriod>
+<ReportingPeriod>54</ReportingPeriod>
+<FeedRefreshPeriod>15</FeedRefreshPeriod>
+<BrandSeverURL>https://www.bizcastzcloud.com</BrandSeverURL>
+<BrandHomeURL>http://www.fnac.com</BrandHomeURL>
+<BrandIsVideoAlign>False</BrandIsVideoAlign>
+<TransferCount>1</TransferCount>
+<DownloadCount>1</DownloadCount>
+</Period>
+</STORSPricingInformation>

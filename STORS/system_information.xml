@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8" ?><Information>
+<!-- DUMP OF SYSTEM TABLE -->
+<system>
+    <tbl_system_id>302706</tbl_system_id> 
+    <tbl_system_guid>1c7fb6f1-1b95-4d89-ac59-8034f10c6170</tbl_system_guid> 
+    <tbl_system_name>X96S_V311_P</tbl_system_name> 
+    <tbl_system_description>Droidlogic</tbl_system_description> 
+    <tbl_location_id>4388</tbl_location_id> 
+    <tbl_system_reg_datetime>5/25/2022 2:50:52 PM</tbl_system_reg_datetime> 
+    <tbl_system_update_datetime>7/7/2022 3:06:14 PM</tbl_system_update_datetime> 
+    <tbl_type_id>28542</tbl_type_id> 
+    <tbl_system_active>1</tbl_system_active> 
+    <tbl_system_info>Android 9</tbl_system_info> 
+    <tbl_last_contact>7/7/2022 3:06:17 PM</tbl_last_contact> 
+    <tbl_last_report_id>659157053</tbl_last_report_id> 
+    <tbl_lastScreengrab>System.Byte[]</tbl_lastScreengrab> 
+    <tbl_remote_command></tbl_remote_command> 
+    <tbl_remote_command_parms></tbl_remote_command_parms> 
+    <tbl_downloading_file_guid></tbl_downloading_file_guid> 
+    <tbl_downloading_file_progress>0</tbl_downloading_file_progress> 
+    <tbl_downloading_file_bps>0</tbl_downloading_file_bps> 
+    <tbl_shell_version>1.841</tbl_shell_version> 
+    <tbl_library></tbl_library> 
+    <tbl_downloading_file_datetime>5/25/2022 2:50:52 PM</tbl_downloading_file_datetime> 
+    <tbl_downloading_mirror>0</tbl_downloading_mirror> 
+    <tbl_drive1_capacity></tbl_drive1_capacity> 
+    <tbl_drive1_free></tbl_drive1_free> 
+    <tbl_processor1></tbl_processor1> 
+    <tbl_processor2></tbl_processor2> 
+    <tbl_system_time></tbl_system_time> 
+    <tbl_screenRes_Height>1</tbl_screenRes_Height> 
+    <tbl_screenRes_Width>1</tbl_screenRes_Width> 
+    <tbl_start_time></tbl_start_time> 
+    <tbl_config_settings></tbl_config_settings> 
+    <tbl_fk_agentType>2</tbl_fk_agentType> 
+    <tbl_price_override></tbl_price_override> 
+    <tbl_price_override2></tbl_price_override2> 
+    <tbl_brand_id>22</tbl_brand_id> 
+    <tbl_computer_name></tbl_computer_name> 
+    <tbl_connected_ssid>My_WiFi_</tbl_connected_ssid> 
+    <tbl_connected_mac>a8:70:5d:61:29:08</tbl_connected_mac> 
+    <tbl_installed_version></tbl_installed_version> 
+    <tbl_resolution>1920 x 1080</tbl_resolution> 
+    <tbl_Notes></tbl_Notes> 
+    <tbl_systemdevice_id>FAUONG</tbl_systemdevice_id> 
+    <tbl_device_token>fvUgZuQu61E:APA91bGpFehOYUbQpyEqHbbe5xSrAf5OjQBQbKYgyMZ-BGKKVm0nL-ou1xbmqadlAcOcrOwCw9pe-FTlLXI7rfGbWOtjv41NQWclZMiEPmvE_YA2WRnQkkGxkPXKBAzaKYTwfNMOpfHk</tbl_device_token> 
+    <tbl_actual_ssid>Biz-TEST</tbl_actual_ssid> 
+    <tbl_frequency>Any</tbl_frequency> 
+    <tbl_notificationtype_id></tbl_notificationtype_id> 
+    <tbl_hardware_mac>B0:02:47:D9:B6:2F</tbl_hardware_mac> 
+    <tbl_prices></tbl_prices> 
+</system>
+<!-- DUMP OF LOCATION TABLE -->
+<location>
+    <tbl_location_id>4388</tbl_location_id> 
+    <tbl_location_state>MA</tbl_location_state> 
+    <tbl_location_city>Needham</tbl_location_city> 
+    <tbl_location_kiosk>Bizcastz HQ</tbl_location_kiosk> 
+    <tbl_location_code>STORS</tbl_location_code> 
+    <tbl_location_modified_datetime>3/16/2022 1:55:12 PM</tbl_location_modified_datetime> 
+    <tbl_location_create_datetime>4/19/2011 12:22:33 PM</tbl_location_create_datetime> 
+    <tbl_location_email></tbl_location_email> 
+    <tbl_location_phone></tbl_location_phone> 
+    <tbl_location_notes></tbl_location_notes> 
+    <tbl_DownloadWindowStartTime>1/1/2000 12:00:00 AM</tbl_DownloadWindowStartTime> 
+    <tbl_DownloadWindowEndTime>1/1/2000 12:00:00 AM</tbl_DownloadWindowEndTime> 
+    <tbl_location_brand>22</tbl_location_brand> 
+    <tbl_location_networkLib></tbl_location_networkLib> 
+    <tbl_fk_region></tbl_fk_region> 
+    <tbl_location_mac1></tbl_location_mac1> 
+    <tbl_location_mac2></tbl_location_mac2> 
+    <tbl_location_mac3></tbl_location_mac3> 
+    <tbl_location_demo_type></tbl_location_demo_type> 
+    <tbl_location_report_period>54</tbl_location_report_period> 
+    <tbl_location_timezone_offset>-4</tbl_location_timezone_offset> 
+    <tbl_location_update_period>5</tbl_location_update_period> 
+    <tbl_location_connected>1</tbl_location_connected> 
+    <tbl_location_number>9999</tbl_location_number> 
+    <tbl_location_language_id>49</tbl_location_language_id> 
+    <tbl_location_reporting>1</tbl_location_reporting> 
+    <tbl_location_active>1</tbl_location_active> 
+    <tbl_location_ping_period>300</tbl_location_ping_period> 
+    <tbl_location_expected_system_count>4</tbl_location_expected_system_count> 
+    <tbl_location_show_credit_files>1</tbl_location_show_credit_files> 
+    <tbl_location_client_email_user></tbl_location_client_email_user> 
+    <tbl_location_client_email_pwd></tbl_location_client_email_pwd> 
+    <tbl_location_client_exchange_user></tbl_location_client_exchange_user> 
+    <tbl_location_client_exchange_pwd></tbl_location_client_exchange_pwd> 
+    <tbl_location_district></tbl_location_district> 
+    <tbl_location_zip>02494</tbl_location_zip> 
+    <tbl_location_lat></tbl_location_lat> 
+    <tbl_location_long></tbl_location_long> 
+    <tbl_location_name>Bizcastz HQ</tbl_location_name> 
+    <tbl_location_hours_sun_open></tbl_location_hours_sun_open> 
+    <tbl_location_hours_sun_close></tbl_location_hours_sun_close> 
+    <tbl_location_hours_mon_open></tbl_location_hours_mon_open> 
+    <tbl_location_hours_mon_close></tbl_location_hours_mon_close> 
+    <tbl_location_hours_tue_open></tbl_location_hours_tue_open> 
+    <tbl_location_hours_tue_close></tbl_location_hours_tue_close> 
+    <tbl_location_hours_wed_open></tbl_location_hours_wed_open> 
+    <tbl_location_hours_wed_close></tbl_location_hours_wed_close> 
+    <tbl_location_hours_thu_open></tbl_location_hours_thu_open> 
+    <tbl_location_hours_thu_close></tbl_location_hours_thu_close> 
+    <tbl_location_hours_fri_open></tbl_location_hours_fri_open> 
+    <tbl_location_hours_fri_close></tbl_location_hours_fri_close> 
+    <tbl_location_hours_sat_open></tbl_location_hours_sat_open> 
+    <tbl_location_hours_sat_close></tbl_location_hours_sat_close> 
+    <tbl_location_feed_refresh_period>15</tbl_location_feed_refresh_period> 
+    <tbl_location_distance>0</tbl_location_distance> 
+    <tbl_location_latitude></tbl_location_latitude> 
+    <tbl_location_longitude></tbl_location_longitude> 
+    <tbl_location_transfer_count>1</tbl_location_transfer_count> 
+    <tbl_location_download_count>1</tbl_location_download_count> 
+    <tbl_location_address1></tbl_location_address1> 
+    <tbl_location_address2></tbl_location_address2> 
+    <tbl_location_address3></tbl_location_address3> 
+    <tbl_location_country></tbl_location_country> 
+    <tbl_location_type></tbl_location_type> 
+    <tbl_p2p_port>3456</tbl_p2p_port> 
+    <tbl_sync_port>5265</tbl_sync_port> 
+</location>
+<!-- DUMP OF BRAND TABLE -->
+<brand>
+    <tbl_brand_id>22</tbl_brand_id> 
+    <tbl_brand_name>Fnac</tbl_brand_name> 
+    <tbl_brand_logoFile>fnac-fr-cloud.png</tbl_brand_logoFile> 
+    <tbl_brand_url>https://fnac.bizcastzcloud.com</tbl_brand_url> 
+    <tbl_brand_sysPassword>sales</tbl_brand_sysPassword> 
+    <tbl_brand_country>FR</tbl_brand_country> 
+    <tbl_brand_state>MA</tbl_brand_state> 
+    <tbl_brand_thumblink></tbl_brand_thumblink> 
+    <tbl_brand_navthumblink></tbl_brand_navthumblink> 
+    <tbl_brand_movielink></tbl_brand_movielink> 
+    <tbl_brand_maincolor></tbl_brand_maincolor> 
+    <tbl_brand_secondarycolor></tbl_brand_secondarycolor> 
+    <tbl_brand_escPassword></tbl_brand_escPassword> 
+    <tbl_brand_hostname>fnac</tbl_brand_hostname> 
+    <tbl_brand_installURL>http://www.storsfrance.com</tbl_brand_installURL> 
+    <tbl_brand_price_display>Yes</tbl_brand_price_display> 
+    <tbl_brand_price_offline>Yes</tbl_brand_price_offline> 
+    <tbl_brand_allow_minimize>Yes</tbl_brand_allow_minimize> 
+    <tbl_brand_banner_placement>Top</tbl_brand_banner_placement> 
+    <tbl_brand_facttag_placement>Right</tbl_brand_facttag_placement> 
+    <tbl_brand_passive_loop>Yes</tbl_brand_passive_loop> 
+    <tbl_brand_home_page>http://www.fnac.com</tbl_brand_home_page> 
+    <tbl_brand_desktop_timeout>90</tbl_brand_desktop_timeout> 
+    <tbl_brand_serverURL>https://www.bizcastzcloud.com</tbl_brand_serverURL> 
+    <tbl_brand_email_text>Rapport Fnac / STORS&lt;br /&gt;
+&lt;br /&gt;
+Les ordinateurs qui n'ont pas connecté au serveur STORS Réseau pendant au moins 2 heures:&lt;br /&gt;
+&lt;br /&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;b&gt;&lt;td&gt;Modèle&lt;/td&gt;&lt;td align=right&gt;Dernière Vérifier&lt;/td&gt;&lt;td align=right&gt;Dernière Connectés&lt;/td&gt;&lt;/b&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=2&gt; &lt;/td&gt;&lt;/tr&gt;
+&lt;system_table&gt;
+&lt;/table&gt;
+&lt;br /&gt;
+Pour télécharger le logiciel Fnac / STORS, s'il vous plaît aller à:
+http://www.storsFrance.com&lt;br /&gt;
+&lt;br /&gt;
+Mot de passe: eticrumble&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+Merci</tbl_brand_email_text> 
+    <tbl_brand_send_email>No</tbl_brand_send_email> 
+    <tbl_brand_email_subject>Fnac / STORS Information: Magasin &lt;store_number&gt;</tbl_brand_email_subject> 
+    <tbl_brand_email_from>assistance@stors.net</tbl_brand_email_from> 
+    <tbl_brand_email_mgmt_text>Rapport Fnac / STORS&lt;br /&gt;
+&lt;br /&gt;
+Les ordinateurs qui n'ont pas connecté au serveur STORS Réseau pendant au moins 2 heures:&lt;br /&gt;
+&lt;br /&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;b&gt;&lt;td&gt;Modèle&lt;/td&gt;&lt;td align=right&gt;Dernière Vérifier&lt;/td&gt;&lt;td align=right&gt;Dernière Connectés&lt;/td&gt;&lt;/b&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=2&gt; &lt;/td&gt;&lt;/tr&gt;
+&lt;system_table&gt;
+&lt;/table&gt;
+&lt;br /&gt;
+Si vous avez des questions ou désirez de l'aide, s'il vous plaît contacter:&lt;br /&gt;
+&lt;br /&gt;
+Pierre-Yves David - pierre-yves.david@fnac.tm.fr - +33 (0) 6 64 49 29 94&lt;br /&gt;
+ou assistance@stors.net&lt;br /&gt;
+&lt;br /&gt;
+Pour télécharger le logiciel Fnac / STORS, s'il vous plaît aller à:
+http://www.storsFrance.com&lt;br /&gt;
+&lt;br /&gt;
+Mot de passe: eticrumble&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+Merci</tbl_brand_email_mgmt_text> 
+    <tbl_brand_email_mgmt_subject>Fnac / STORS Information: Tous les Magasin</tbl_brand_email_mgmt_subject> 
+    <tbl_brand_email_mgmt_to>larry.fischer@nexpertz.com;assistance@stors.net;pierre-yves.david@fnac.com;clothilde.lesseur@fnac.com</tbl_brand_email_mgmt_to> 
+    <tbl_brand_allow_display_settings>Yes</tbl_brand_allow_display_settings> 
+    <tbl_brand_scheduled_reboot>Yes</tbl_brand_scheduled_reboot> 
+    <tbl_brand_reboot_time>09:30</tbl_brand_reboot_time> 
+    <tbl_brand_sync>Yes</tbl_brand_sync> 
+    <tbl_brand_sync_minutes>10</tbl_brand_sync_minutes> 
+    <tbl_brand_system_active_days>1</tbl_brand_system_active_days> 
+    <tbl_brand_session_timeout>92</tbl_brand_session_timeout> 
+    <tbl_brand_restrict_internet>No</tbl_brand_restrict_internet> 
+    <tbl_brand_internet_exceptions>*.fnac.com; fnac.com; *.storsfrance.com; storsfrance.com; *.fnactv.com; fnactv.com; *.fnac-static.com; *.youtube.com; youtube.com; *.facebook.com; facebook.com; *.myspace.com; myspace.com; *.twitter.com; twitter.com; *.flickr.com; flickr.com; *.programme-tv.net; programme-tv.net; *.allocine.fr; allocine.fr; *.google.com; google.com; *.gmail.com; gmail.com; *.live.com; live.com; *.yahoo.fr; yahoo.fr; *.laposte.fr; laposte.fr; *.acer.com; acer.com; *.adobe.com; adobe.com; *.amd.com; amd.com; *.asus.com; asus.com; *.compaq.com; compaq.com; *.hp.com; hp.com; *.intel.com; intel.com; *.logitech.com; logitech.com; *.microsoft.com; microsoft.com; *.packardbell.com; packardbell.com; *.samsung.com; samsung.com; *.sony.fr; sony.fr; *.toshiba.com; toshiba.com</tbl_brand_internet_exceptions> 
+    <tbl_brand_restrict_usb>Yes</tbl_brand_restrict_usb> 
+    <tbl_brand_desktop_force_expiration>Yes</tbl_brand_desktop_force_expiration> 
+    <tbl_brand_admin_locale>fr-FR</tbl_brand_admin_locale> 
+    <tbl_brand_minimize_require_password>No</tbl_brand_minimize_require_password> 
+    <tbl_brand_restricted_home_page>internet.storsfrance.com</tbl_brand_restricted_home_page> 
+    <tbl_brand_confirmPassword></tbl_brand_confirmPassword> 
+    <tbl_brand_show_banner_minimized>Yes</tbl_brand_show_banner_minimized> 
+    <tbl_brand_tablet_password>eticrumble</tbl_brand_tablet_password> 
+    <tbl_brand_show_credit_offer>Yes</tbl_brand_show_credit_offer> 
+    <tbl_brand_retailer_inventory_threshold>0</tbl_brand_retailer_inventory_threshold> 
+    <tbl_brand_location_inventory_threshold>0</tbl_brand_location_inventory_threshold> 
+    <tbl_brand_pc_retailer_password>eticrumble</tbl_brand_pc_retailer_password> 
+    <tbl_brand_pc_user_password>sales</tbl_brand_pc_user_password> 
+    <tbl_brand_pc_stors_password>stors</tbl_brand_pc_stors_password> 
+    <tbl_brand_ntp_time_servers>time-nw.nist.gov,0x9 time.euro.apple.com,0x9</tbl_brand_ntp_time_servers> 
+    <tbl_brand_tablet_desktop_mode>0</tbl_brand_tablet_desktop_mode> 
+    <tbl_brand_expected_ssid_1>FNACDEMO</tbl_brand_expected_ssid_1> 
+    <tbl_brand_expected_ssid_2>"FNACDEMO"</tbl_brand_expected_ssid_2> 
+    <tbl_brand_tablet_desktop_timeout>120</tbl_brand_tablet_desktop_timeout> 
+    <tbl_brand_tablet_show_stop_button>1</tbl_brand_tablet_show_stop_button> 
+    <tbl_brand_tablet_session_timeout>125</tbl_brand_tablet_session_timeout> 
+    <tbl_brand_tablet_block_settings>1</tbl_brand_tablet_block_settings> 
+    <tbl_brand_is_banking>0</tbl_brand_is_banking> 
+    <tbl_brand_ignore_price_load_hours>1</tbl_brand_ignore_price_load_hours> 
+    <tbl_brand_sharedbrand_id>55</tbl_brand_sharedbrand_id> 
+    <tbl_brand_minimum_win32_version></tbl_brand_minimum_win32_version> 
+    <tbl_brand_minimum_apk_version></tbl_brand_minimum_apk_version> 
+    <tbl_brand_usererror_message></tbl_brand_usererror_message> 
+    <tbl_brand_versionerror_message></tbl_brand_versionerror_message> 
+    <tbl_brand_trigger_number></tbl_brand_trigger_number> 
+    <tbl_web_code></tbl_web_code> 
+    <tbl_web_generate></tbl_web_generate> 
+    <tbl_device_code_url>FnacTVs.com</tbl_device_code_url> 
+    <tbl_brand_distance>5</tbl_brand_distance> 
+    <tbl_brand_isdevicelocation>False</tbl_brand_isdevicelocation> 
+    <tbl_tv_brand_logoFile>fnac.png</tbl_tv_brand_logoFile> 
+    <tbl_brand_is_videoalign></tbl_brand_is_videoalign> 
+    <tbl_device_askpassword_period>5</tbl_device_askpassword_period> 
+    <tbl_client_id>hhK7e2urY7qMS33K5AxCx6OnL2P6mU5a</tbl_client_id> 
+    <tbl_client_secret_id>ms-app://s-1-15-2-1318867096-264282398-2671250655-2087753630-1533221283-1093034102-4262120249</tbl_client_secret_id> 
+    <tbl_tv_price_range>0</tbl_tv_price_range> 
+    <tbl_tv_size_range>0</tbl_tv_size_range> 
+    <tbl_tv_color_shape_duration_minutes>5</tbl_tv_color_shape_duration_minutes> 
+    <tbl_shape_duration_onscreen_inseconds>120</tbl_shape_duration_onscreen_inseconds> 
+    <tbl_brand_transfer_count>100</tbl_brand_transfer_count> 
+    <tbl_brand_download_count>100</tbl_brand_download_count> 
+    <tbl_regeneration_devicecode_duration_minutes>0</tbl_regeneration_devicecode_duration_minutes> 
+    <tbl_regeneration_devicecode_last_updated_datetime></tbl_regeneration_devicecode_last_updated_datetime> 
+    <tbl_brand_support>Pour obtenir de l'aide, veuillez contacter le siège social ou support@bizcastz.com</tbl_brand_support> 
+    <tbl_brand_expected_ssid_3>FischerNet</tbl_brand_expected_ssid_3> 
+    <tbl_brand_expected_ssid_4>Korby</tbl_brand_expected_ssid_4> 
+    <tbl_brand_expected_ssid_5>TAG WIFI</tbl_brand_expected_ssid_5> 
+    <tbl_p2p_port>3456</tbl_p2p_port> 
+    <tbl_sync_port>5000</tbl_sync_port> 
+</brand>
+</Information>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?><STORSLocationInformation name="location">
+<location name="location">
+        <ping_period>300</ping_period>
+        <update_period>5</update_period>
+        <report_period>54</report_period>
+        <feed_refresh_period>15</feed_refresh_period>
+        <zip_code>02494</zip_code>
+        <sun_hour_start>0000</sun_hour_start>
+        <sun_hour_end>2359</sun_hour_end>
+        <mon_hour_start>0000</mon_hour_start>
+        <mon_hour_end>2359</mon_hour_end>
+        <tue_hour_start>0000</tue_hour_start>
+        <tue_hour_end>2359</tue_hour_end>
+        <wed_hour_start>0000</wed_hour_start>
+        <wed_hour_end>2359</wed_hour_end>
+        <thu_hour_start>0000</thu_hour_start>
+        <thu_hour_end>2359</thu_hour_end>
+        <fri_hour_start>0000</fri_hour_start>
+        <fri_hour_end>2359</fri_hour_end>
+        <sat_hour_start>0000</sat_hour_start>
+        <sat_hour_end>2359</sat_hour_end>
+        <retailer_pwd>eticrumble</retailer_pwd>
+        <session_timeout>125</session_timeout>
+        <desktop_timeout>120</desktop_timeout>
+        <schedule_reboot>09:30</schedule_reboot>
+</location>
+</STORSLocationInformation>

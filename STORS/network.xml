@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?><STORSNetworkInformation name="model">
+<networklist name="network">
+ <network> 
+ <network_id>17</network_id> 
+ <location_id>4388</location_id> 
+ <brand_id>29</brand_id> 
+ <usage>Other</usage> 
+ <start_datetime>3/10/2020 12:00:00 AM</start_datetime> 
+ <end_datetime>3/10/2025 12:00:00 AM</end_datetime> 
+ <ssid>Biz-TEST</ssid> 
+ <password>12345678</password> 
+ <security_type>WPA2</security_type> 
+ <method></method> 
+ <phase_2></phase_2> 
+ <ca_cert></ca_cert> 
+ <identity></identity> 
+ <anonidentity></anonidentity> 
+ <network_order>1</network_order> 
+ <frequency>Any</frequency> 
+ </network> 
+ <network> 
+ <network_id>16</network_id> 
+ <location_id>4388</location_id> 
+ <brand_id>29</brand_id> 
+ <usage>Main</usage> 
+ <start_datetime>3/6/2020 12:00:00 AM</start_datetime> 
+ <end_datetime>3/6/2025 12:00:00 AM</end_datetime> 
+ <ssid>Bizcastz-Meraki</ssid> 
+ <password>tellshow1</password> 
+ <security_type>WPA2</security_type> 
+ <method></method> 
+ <phase_2></phase_2> 
+ <ca_cert></ca_cert> 
+ <identity></identity> 
+ <anonidentity></anonidentity> 
+ <network_order>2</network_order> 
+ <frequency>Any</frequency> 
+ </network> 
+ <network> 
+ <network_id>1</network_id> 
+ <location_id>4388</location_id> 
+ <brand_id>-1</brand_id> 
+ <usage>Primary</usage> 
+ <start_datetime>1/1/2020 12:00:00 AM</start_datetime> 
+ <end_datetime>1/1/2020 12:00:00 AM</end_datetime> 
+ <ssid>NokiaDambi</ssid> 
+ <password>ihateyou33</password> 
+ <security_type>WPA2, 802.1x EAP</security_type> 
+ <method>PEAP</method> 
+ <phase_2>MSCHAPV2</phase_2> 
+ <ca_cert>Do not Validate</ca_cert> 
+ <identity>abc@cba.com</identity> 
+ <anonidentity>abc2@cba.com</anonidentity> 
+ <network_order>3</network_order> 
+ <frequency>5ghz</frequency> 
+ </network> 
+ <network> 
+ <network_id>19</network_id> 
+ <location_id>4388</location_id> 
+ <brand_id>29</brand_id> 
+ <usage>Yehuda</usage> 
+ <start_datetime>3/16/2020 12:00:00 AM</start_datetime> 
+ <end_datetime>3/16/2025 12:00:00 AM</end_datetime> 
+ <ssid>Jamie</ssid> 
+ <password>!inBar123</password> 
+ <security_type>WPA2</security_type> 
+ <method></method> 
+ <phase_2></phase_2> 
+ <ca_cert></ca_cert> 
+ <identity></identity> 
+ <anonidentity></anonidentity> 
+ <network_order>4</network_order> 
+ <frequency>Any</frequency> 
+ </network> 
+ <network> 
+ <network_id>20</network_id> 
+ <location_id>4388</location_id> 
+ <brand_id>29</brand_id> 
+ <usage>Paul Home </usage> 
+ <start_datetime>3/18/2020 12:00:00 AM</start_datetime> 
+ <end_datetime>3/18/2025 12:00:00 AM</end_datetime> 
+ <ssid>School_Work-2.4</ssid> 
+ <password>abc123def345</password> 
+ <security_type>WPA2</security_type> 
+ <method></method> 
+ <phase_2></phase_2> 
+ <ca_cert></ca_cert> 
+ <identity></identity> 
+ <anonidentity></anonidentity> 
+ <network_order>5</network_order> 
+ <frequency>Any</frequency> 
+ </network> 
+ <network> 
+ <network_id>21</network_id> 
+ <location_id>4388</location_id> 
+ <brand_id>29</brand_id> 
+ <usage>MK-HOME</usage> 
+ <start_datetime>3/19/2020 12:00:00 AM</start_datetime> 
+ <end_datetime>3/19/2025 12:00:00 AM</end_datetime> 
+ <ssid>TEST-BIZ-MK</ssid> 
+ <password>12345678</password> 
+ <security_type>WPA2</security_type> 
+ <method></method> 
+ <phase_2></phase_2> 
+ <ca_cert></ca_cert> 
+ <identity></identity> 
+ <anonidentity></anonidentity> 
+ <network_order>6</network_order> 
+ <frequency>Any</frequency> 
+ </network> 
+</networklist>
+</STORSNetworkInformation>

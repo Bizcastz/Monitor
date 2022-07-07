@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<STORSPricingInformation name="price">
+<price name="price">
+    <price_regular>249.99</price_regular>
+        <price_display>249.99</price_display>
+        <price_line01_center></price_line01_center>
+        <price_line02_center></price_line02_center>
+     <price_line03_center></price_line03_center>
+        <price_member></price_member>
+    <price_sale>249.99</price_sale>
+        <price_description>1</price_description>
+        <price_ecopart>3.00</price_ecopart>
+        <price_discount></price_discount>
+        <price_discount_text></price_discount_text>
+        <price_discount_legal_text>MODΘLE D'EXPOSITION</price_discount_legal_text>
+        <price_stamp_type>PRIXNORMAL</price_stamp_type>
+        <price_credit_file_large></price_credit_file_large>
+        <price_credit_file_small></price_credit_file_small>
+        <price_credit_offer></price_credit_offer>
+        <price_exchange>39.90</price_exchange>
+        <price_exchange_text></price_exchange_text>
+        <price_exchange_fine_print></price_exchange_fine_print>
+        <price_exchange_sku></price_exchange_sku>
+        <price_music_tax></price_music_tax>
+        <article_loa></article_loa>
+        <price_filedate>06/04/2022 05:01</price_filedate>
+<!-- DUMP OF PRICE TABLE -->
+    <tbl_location_id>-1</tbl_location_id> 
+    <tbl_type_id>27270</tbl_type_id> 
+    <tbl_brand_id>22</tbl_brand_id> 
+    <tbl_price_display_flag>Yes</tbl_price_display_flag> 
+    <tbl_price_facttag_refresh_seconds>0</tbl_price_facttag_refresh_seconds> 
+    <tbl_price_datetime_lastcheck>6/4/2022 3:39:52 AM</tbl_price_datetime_lastcheck> 
+    <tbl_price_date_start>6/4/2022 3:39:52 AM</tbl_price_date_start> 
+    <tbl_price_date_end>6/4/2023 3:39:52 AM</tbl_price_date_end> 
+    <tbl_price_retailer_name>Fnac</tbl_price_retailer_name> 
+    <tbl_price_retailer_store_number>8030</tbl_price_retailer_store_number> 
+    <tbl_price_retailer_sku>9165320</tbl_price_retailer_sku> 
+    <tbl_price_retailer_upc>4710180589931</tbl_price_retailer_upc> 
+    <tbl_price_description>1</tbl_price_description> 
+    <tbl_price_line01_left></tbl_price_line01_left> 
+    <tbl_price_line01_center></tbl_price_line01_center> 
+    <tbl_price_line01_right></tbl_price_line01_right> 
+    <tbl_price_line02_left></tbl_price_line02_left> 
+    <tbl_price_line02_center></tbl_price_line02_center> 
+    <tbl_price_line02_right></tbl_price_line02_right> 
+    <tbl_price_line03_left></tbl_price_line03_left> 
+    <tbl_price_line03_center></tbl_price_line03_center> 
+    <tbl_price_line03_right></tbl_price_line03_right> 
+    <tbl_price_line04_left></tbl_price_line04_left> 
+    <tbl_price_line04_center></tbl_price_line04_center> 
+    <tbl_price_line04_right></tbl_price_line04_right> 
+    <tbl_price_line05_left></tbl_price_line05_left> 
+    <tbl_price_line05_center></tbl_price_line05_center> 
+    <tbl_price_line05_right></tbl_price_line05_right> 
+    <tbl_price_line06_left></tbl_price_line06_left> 
+    <tbl_price_line06_center></tbl_price_line06_center> 
+    <tbl_price_line06_right></tbl_price_line06_right> 
+    <tbl_user_id>0</tbl_user_id> 
+    <tbl_user_id_verified>0</tbl_user_id_verified> 
+    <tbl_price_verified>0</tbl_price_verified> 
+    <tbl_deleted_user_id>0</tbl_deleted_user_id> 
+    <tbl_deleted_datetime>1/1/1900 12:00:00 AM</tbl_deleted_datetime> 
+    <tbl_price_tmobile_1></tbl_price_tmobile_1> 
+    <tbl_price_tmobile_2></tbl_price_tmobile_2> 
+    <tbl_price_tmobile_3></tbl_price_tmobile_3> 
+    <tbl_price_vodafone_1></tbl_price_vodafone_1> 
+    <tbl_price_vodafone_2></tbl_price_vodafone_2> 
+    <tbl_price_vodafone_3></tbl_price_vodafone_3> 
+    <tbl_price_3_1></tbl_price_3_1> 
+    <tbl_price_3_2></tbl_price_3_2> 
+    <tbl_price_3_3></tbl_price_3_3> 
+    <tbl_price_3_4></tbl_price_3_4> 
+    <tbl_price_3_5></tbl_price_3_5> 
+    <tbl_price_3_6></tbl_price_3_6> 
+    <tbl_price_3_7></tbl_price_3_7> 
+    <tbl_price_3_8></tbl_price_3_8> 
+    <tbl_inventory>505</tbl_inventory> 
+    <tbl_price_regular>249.99</tbl_price_regular> 
+    <tbl_price_member></tbl_price_member> 
+    <tbl_price_sale>249.99</tbl_price_sale> 
+    <tbl_price_affaire></tbl_price_affaire> 
+    <tbl_price_exchange>39.90</tbl_price_exchange> 
+    <tbl_price_ecopart>3.00</tbl_price_ecopart> 
+    <tbl_price_discount></tbl_price_discount> 
+    <tbl_price_stamp_type>PRIXNORMAL</tbl_price_stamp_type> 
+    <tbl_price_exchange_text></tbl_price_exchange_text> 
+    <tbl_price_exchange_fine_print></tbl_price_exchange_fine_print> 
+    <tbl_price_points></tbl_price_points> 
+    <tbl_price_discount_legal_text></tbl_price_discount_legal_text> 
+    <tbl_price_discount_text></tbl_price_discount_text> 
+    <tbl_price_credit_file_large></tbl_price_credit_file_large> 
+    <tbl_price_credit_file_small></tbl_price_credit_file_small> 
+    <tbl_price_display_credit_offer></tbl_price_display_credit_offer> 
+    <tbl_price_credit_file_expiration></tbl_price_credit_file_expiration> 
+    <tbl_price_exchange_sku></tbl_price_exchange_sku> 
+    <tbl_price_music_tax></tbl_price_music_tax> 
+    <tbl_article_loa></tbl_article_loa> 
+    <tbl_price_category>MONITOR</tbl_price_category> 
+    <tbl_price_currency>EUR</tbl_price_currency> 
+    <tbl_price_source>CSV</tbl_price_source> 
+    <tbl_price_regular_alt></tbl_price_regular_alt> 
+    <tbl_price_sale_alt></tbl_price_sale_alt> 
+    <tbl_price_stamp_alt></tbl_price_stamp_alt> 
+    <tbl_price_description_alt></tbl_price_description_alt> 
+    <tbl_price_discount_pct></tbl_price_discount_pct> 
+    <tbl_price_discount_pct_web></tbl_price_discount_pct_web> 
+    <tbl_price_discount_pct_feed></tbl_price_discount_pct_feed> 
+    <tbl_price_regular_web></tbl_price_regular_web> 
+    <tbl_price_regular_feed></tbl_price_regular_feed> 
+    <tbl_price_sale_web></tbl_price_sale_web> 
+    <tbl_price_sale_feed></tbl_price_sale_feed> 
+    <tbl_price_stamp_web></tbl_price_stamp_web> 
+    <tbl_price_stamp_feed></tbl_price_stamp_feed> 
+    <tbl_price_discount_web></tbl_price_discount_web> 
+    <tbl_price_discount_feed></tbl_price_discount_feed> 
+    <tbl_price_match_web_feed></tbl_price_match_web_feed> 
+    <tbl_price_finance></tbl_price_finance> 
+    <tbl_price_rent></tbl_price_rent> 
+    <tbl_price_finance_duration_min></tbl_price_finance_duration_min> 
+    <tbl_price_finance_duration_max></tbl_price_finance_duration_max> 
+    <tbl_price_finance_date>1/1/1900 12:00:00 AM</tbl_price_finance_date> 
+    <tbl_price_rent_date></tbl_price_rent_date> 
+    <tbl_price_id>12175369</tbl_price_id> 
+</price>
+</STORSPricingInformation>
