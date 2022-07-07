@@ -1,3 +1,4 @@
+//UPDATE WHEN CHANGED
 const shell_version = 'MONSHELL-5.0.2';
 
 localDebug = false;
