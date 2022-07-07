@@ -1,5 +1,5 @@
 //UPDATE WHEN CHANGED
-const shell_version = 'MONSHELL-5.0.2';
+const shell_version = 'MONSHELL-5.0.3';
 
 localDebug = false;
 
@@ -1554,6 +1554,9 @@ function uploadPricingInfo() {
     myDisplay +
     '; TAX=' +
     myTax;
+
+  //REMOVE '€' SIGN FROM STRING
+  price_string = price_string.replaceAll('€', '');
 
   try {
     myXML = priceXML.responseText.replace(/(\r\n|\n|\r)/gm, '').slice(0, -2000);
