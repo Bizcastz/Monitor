@@ -1120,27 +1120,31 @@ function processSpec(spec, index) {
 }
 
 function processSpecItem(item, index, thisArr) {
-  myPos = index + 1;
+  try {
+    myPos = index + 1;
 
-  myElem = document.getElementById('div_ratingbars_' + this);
-  if (myPos == thisArr.length && myElem) {
-    if (myElem) {
-      //SPECIAL CASE: RATINGS
-      do_specsRatings(this, item);
-    }
-  } else {
-    //POSITION 5 IS SPECIAL, AFTER THE TITLE, IT DEALS WITH IMAGES
-    if (this == 5 && myPos != 1) {
-      //DEAL WITH IMAGES
-      if (item != '') {
-        myTag = 'img_spec_' + this + '_' + myPos;
-        document.getElementById(myTag).src = 'images/' + item + '.png';
+    myElem = document.getElementById('div_ratingbars_' + this);
+    if (myPos == thisArr.length && myElem) {
+      if (myElem) {
+        //SPECIAL CASE: RATINGS
+        do_specsRatings(this, item);
       }
     } else {
-      myTag = 'lbl_spec_' + this + '_' + myPos;
-      document.getElementById(myTag).innerHTML = item;
+      //POSITION 5 IS SPECIAL, AFTER THE TITLE, IT DEALS WITH IMAGES
+      if (this == 5 && myPos != 1) {
+        //DEAL WITH IMAGES
+        if (item != '') {
+          myTag = 'img_spec_' + this + '_' + myPos;
+          document.getElementById(myTag).src = 'images/' + item + '.png';
+        }
+      } else {
+        try {
+          myTag = 'lbl_spec_' + this + '_' + myPos;
+          document.getElementById(myTag).innerHTML = item;
+        } catch (err) {}
+      }
     }
-  }
+  } catch (err) {}
 }
 
 function do_specsRatings(row, value) {
@@ -1507,6 +1511,33 @@ function healthyJS() {
   return 'true';
 }
 
+// function uploadPricingInfo2() {
+//   var parameters =
+//     'system_device=a46ada82-ce82-49e0-9455-c6a7c63e66d1' +
+//     '&prices_string=ABCD' +
+//     '&xmlfile=DEF' +
+//     '&shell_version=GHI' +
+//     '&js_checkin=JKL';
+
+//   var url =
+//     'https://storsnetwork.com/system_comm_secure.asmx/jsPrices6?' + parameters;
+
+//   var xhr = new XMLHttpRequest();
+//   xhr.open('GET', url);
+
+//   xhr.setRequestHeader('Content-Type', 'application/soap+xml');
+
+//   xhr.onreadystatechange = function () {
+//     if (xhr.readyState === 4) {
+//       console.log(xhr.status);
+//       console.log(xhr.responseText);
+//       alert(xhr.responseText);
+//     }
+//   };
+
+//   xhr.send();
+// }
+
 function uploadPricingInfo() {
   //STILL TESTING
 
@@ -1556,7 +1587,12 @@ function uploadPricingInfo() {
     myTax;
 
   //REMOVE '€' SIGN FROM STRING
-  price_string = price_string.replaceAll('€', '');
+  try {
+    price_string = price_string.replaceAll('€', '');
+  } catch (err) {
+    //OLDER BROWSERS
+    price_string = price_string.replace(/€/g, '');
+  }
 
   try {
     myXML = priceXML.responseText.replace(/(\r\n|\n|\r)/gm, '').slice(0, -2000);

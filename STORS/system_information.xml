@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" ?><Information>
 <!-- DUMP OF SYSTEM TABLE -->
 <system>
-    <tbl_system_id>302706</tbl_system_id> 
-    <tbl_system_guid>1c7fb6f1-1b95-4d89-ac59-8034f10c6170</tbl_system_guid> 
+    <tbl_system_id>309539</tbl_system_id> 
+    <tbl_system_guid>8259f9bd-f3c0-4fbc-a3d1-cefff0afe084</tbl_system_guid> 
     <tbl_system_name>X96S_V311_P</tbl_system_name> 
     <tbl_system_description>Droidlogic</tbl_system_description> 
     <tbl_location_id>4388</tbl_location_id> 
-    <tbl_system_reg_datetime>5/25/2022 2:50:52 PM</tbl_system_reg_datetime> 
-    <tbl_system_update_datetime>7/7/2022 3:06:14 PM</tbl_system_update_datetime> 
-    <tbl_type_id>28542</tbl_type_id> 
+    <tbl_system_reg_datetime>7/11/2022 8:34:02 PM</tbl_system_reg_datetime> 
+    <tbl_system_update_datetime>7/12/2022 9:12:49 PM</tbl_system_update_datetime> 
+    <tbl_type_id>27072</tbl_type_id> 
     <tbl_system_active>1</tbl_system_active> 
     <tbl_system_info>Android 9</tbl_system_info> 
-    <tbl_last_contact>7/7/2022 3:06:17 PM</tbl_last_contact> 
-    <tbl_last_report_id>659157053</tbl_last_report_id> 
+    <tbl_last_contact>7/12/2022 9:12:54 PM</tbl_last_contact> 
+    <tbl_last_report_id>660080211</tbl_last_report_id> 
     <tbl_lastScreengrab>System.Byte[]</tbl_lastScreengrab> 
     <tbl_remote_command></tbl_remote_command> 
     <tbl_remote_command_parms></tbl_remote_command_parms> 
@@ -21,7 +21,7 @@
     <tbl_downloading_file_bps>0</tbl_downloading_file_bps> 
     <tbl_shell_version>1.841</tbl_shell_version> 
     <tbl_library></tbl_library> 
-    <tbl_downloading_file_datetime>5/25/2022 2:50:52 PM</tbl_downloading_file_datetime> 
+    <tbl_downloading_file_datetime>7/11/2022 8:34:02 PM</tbl_downloading_file_datetime> 
     <tbl_downloading_mirror>0</tbl_downloading_mirror> 
     <tbl_drive1_capacity></tbl_drive1_capacity> 
     <tbl_drive1_free></tbl_drive1_free> 
@@ -38,12 +38,12 @@
     <tbl_brand_id>22</tbl_brand_id> 
     <tbl_computer_name></tbl_computer_name> 
     <tbl_connected_ssid>My_WiFi_</tbl_connected_ssid> 
-    <tbl_connected_mac>a8:70:5d:61:29:08</tbl_connected_mac> 
+    <tbl_connected_mac>a8:70:5d:61:29:07</tbl_connected_mac> 
     <tbl_installed_version></tbl_installed_version> 
     <tbl_resolution>1920 x 1080</tbl_resolution> 
     <tbl_Notes></tbl_Notes> 
-    <tbl_systemdevice_id>FAUONG</tbl_systemdevice_id> 
-    <tbl_device_token>fvUgZuQu61E:APA91bGpFehOYUbQpyEqHbbe5xSrAf5OjQBQbKYgyMZ-BGKKVm0nL-ou1xbmqadlAcOcrOwCw9pe-FTlLXI7rfGbWOtjv41NQWclZMiEPmvE_YA2WRnQkkGxkPXKBAzaKYTwfNMOpfHk</tbl_device_token> 
+    <tbl_systemdevice_id>PWOUJN</tbl_systemdevice_id> 
+    <tbl_device_token>dmlKGoHsreQ:APA91bG1Z-lvh0UgMh93z2cwlNMgnMbCOVsUIB28Q77lIMNKGrd2lOJGOvxTdf8XL9pqUJ_qf2lt8ENfEDbxoyji5GewKtDdwVndMs-F_4rPzsG6iKGwMXHuiGEAT_jrNjIhYpZLXVOP</tbl_device_token> 
     <tbl_actual_ssid>Biz-TEST</tbl_actual_ssid> 
     <tbl_frequency>Any</tbl_frequency> 
     <tbl_notificationtype_id></tbl_notificationtype_id> 

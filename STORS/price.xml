@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?><STORSPricingInformation name="price">
 <price name="price">
-        <price_regular>2999.87</price_regular>
-        <price_display>2400.87</price_display>
+        <price_regular>159.99</price_regular>
+        <price_display>159.99</price_display>
         <price_line01_center></price_line01_center>
         <price_line02_center></price_line02_center>
         <price_line03_center></price_line03_center>
-        <price_member>1299.99</price_member>
-        <price_sale>1599,86</price_sale>
-        <price_description>4</price_description>
-        <price_ecopart>0.40</price_ecopart>
+        <price_member></price_member>
+        <price_sale>159.99</price_sale>
+        <price_description>1</price_description>
+        <price_ecopart>1.70</price_ecopart>
         <price_discount></price_discount>
         <price_discount_text></price_discount_text>
         <price_discount_legal_text>MODΘLE D'EXPOSITION</price_discount_legal_text>
-        <price_stamp_type></price_stamp_type>
+        <price_stamp_type>PRIXNORMAL</price_stamp_type>
         <price_credit_file_large></price_credit_file_large>
         <price_credit_file_small></price_credit_file_small>
         <price_credit_offer>Yes</price_credit_offer>
-        <price_exchange></price_exchange>
+        <price_exchange>59.99</price_exchange>
         <price_exchange_text></price_exchange_text>
         <price_exchange_fine_print></price_exchange_fine_print>
         <price_exchange_sku></price_exchange_sku>
         <price_music_tax></price_music_tax>
         <article_loa></article_loa>
-        <price_filedate>07/07/2022 11:06</price_filedate>
+        <price_filedate>07/12/2022 14:55</price_filedate>
 <!-- DUMP OF PRICE TABLE -->
     <tbl_location_id>-1</tbl_location_id> 
-    <tbl_type_id>28542</tbl_type_id> 
+    <tbl_type_id>27072</tbl_type_id> 
     <tbl_brand_id>22</tbl_brand_id> 
     <tbl_price_display_flag>Yes</tbl_price_display_flag> 
-    <tbl_price_facttag_refresh_seconds></tbl_price_facttag_refresh_seconds> 
-    <tbl_price_datetime_lastcheck></tbl_price_datetime_lastcheck> 
-    <tbl_price_date_start>9/1/2021 12:00:00 AM</tbl_price_date_start> 
-    <tbl_price_date_end>12/31/2024 12:00:00 AM</tbl_price_date_end> 
-    <tbl_price_retailer_name></tbl_price_retailer_name> 
-    <tbl_price_retailer_store_number></tbl_price_retailer_store_number> 
-    <tbl_price_retailer_sku>999888T</tbl_price_retailer_sku> 
-    <tbl_price_retailer_upc></tbl_price_retailer_upc> 
-    <tbl_price_description>4</tbl_price_description> 
+    <tbl_price_facttag_refresh_seconds>0</tbl_price_facttag_refresh_seconds> 
+    <tbl_price_datetime_lastcheck>7/11/2022 5:59:55 AM</tbl_price_datetime_lastcheck> 
+    <tbl_price_date_start>7/11/2022 5:59:55 AM</tbl_price_date_start> 
+    <tbl_price_date_end>7/11/2023 5:59:55 AM</tbl_price_date_end> 
+    <tbl_price_retailer_name>Fnac</tbl_price_retailer_name> 
+    <tbl_price_retailer_store_number>8030</tbl_price_retailer_store_number> 
+    <tbl_price_retailer_sku>9188581</tbl_price_retailer_sku> 
+    <tbl_price_retailer_upc>4712900891133</tbl_price_retailer_upc> 
+    <tbl_price_description>1</tbl_price_description> 
     <tbl_price_line01_left></tbl_price_line01_left> 
     <tbl_price_line01_center></tbl_price_line01_center> 
     <tbl_price_line01_right></tbl_price_line01_right> 
@@ -50,16 +50,16 @@
     <tbl_price_line04_center></tbl_price_line04_center> 
     <tbl_price_line04_right></tbl_price_line04_right> 
     <tbl_price_line05_left></tbl_price_line05_left> 
-    <tbl_price_line05_center>2999.87</tbl_price_line05_center> 
+    <tbl_price_line05_center></tbl_price_line05_center> 
     <tbl_price_line05_right></tbl_price_line05_right> 
     <tbl_price_line06_left></tbl_price_line06_left> 
     <tbl_price_line06_center></tbl_price_line06_center> 
     <tbl_price_line06_right></tbl_price_line06_right> 
-    <tbl_user_id></tbl_user_id> 
-    <tbl_user_id_verified></tbl_user_id_verified> 
-    <tbl_price_verified></tbl_price_verified> 
-    <tbl_deleted_user_id></tbl_deleted_user_id> 
-    <tbl_deleted_datetime></tbl_deleted_datetime> 
+    <tbl_user_id>0</tbl_user_id> 
+    <tbl_user_id_verified>0</tbl_user_id_verified> 
+    <tbl_price_verified>0</tbl_price_verified> 
+    <tbl_deleted_user_id>0</tbl_deleted_user_id> 
+    <tbl_deleted_datetime>1/1/1900 12:00:00 AM</tbl_deleted_datetime> 
     <tbl_price_tmobile_1></tbl_price_tmobile_1> 
     <tbl_price_tmobile_2></tbl_price_tmobile_2> 
     <tbl_price_tmobile_3></tbl_price_tmobile_3> 
@@ -74,15 +74,15 @@
     <tbl_price_3_6></tbl_price_3_6> 
     <tbl_price_3_7></tbl_price_3_7> 
     <tbl_price_3_8></tbl_price_3_8> 
-    <tbl_inventory>0</tbl_inventory> 
-    <tbl_price_regular>2999.87</tbl_price_regular> 
-    <tbl_price_member>1299.99</tbl_price_member> 
-    <tbl_price_sale>1599,86</tbl_price_sale> 
-    <tbl_price_affaire>2400.87</tbl_price_affaire> 
-    <tbl_price_exchange></tbl_price_exchange> 
-    <tbl_price_ecopart>0.40</tbl_price_ecopart> 
+    <tbl_inventory>481</tbl_inventory> 
+    <tbl_price_regular>159.99</tbl_price_regular> 
+    <tbl_price_member></tbl_price_member> 
+    <tbl_price_sale>159.99</tbl_price_sale> 
+    <tbl_price_affaire></tbl_price_affaire> 
+    <tbl_price_exchange>59.99</tbl_price_exchange> 
+    <tbl_price_ecopart>1.70</tbl_price_ecopart> 
     <tbl_price_discount></tbl_price_discount> 
-    <tbl_price_stamp_type></tbl_price_stamp_type> 
+    <tbl_price_stamp_type>PRIXNORMAL</tbl_price_stamp_type> 
     <tbl_price_exchange_text></tbl_price_exchange_text> 
     <tbl_price_exchange_fine_print></tbl_price_exchange_fine_print> 
     <tbl_price_points></tbl_price_points> 
@@ -95,9 +95,9 @@
     <tbl_price_exchange_sku></tbl_price_exchange_sku> 
     <tbl_price_music_tax></tbl_price_music_tax> 
     <tbl_article_loa></tbl_article_loa> 
-    <tbl_price_category></tbl_price_category> 
-    <tbl_price_currency></tbl_price_currency> 
-    <tbl_price_source></tbl_price_source> 
+    <tbl_price_category>MONITOR</tbl_price_category> 
+    <tbl_price_currency>EUR</tbl_price_currency> 
+    <tbl_price_source>CSV</tbl_price_source> 
     <tbl_price_regular_alt></tbl_price_regular_alt> 
     <tbl_price_sale_alt></tbl_price_sale_alt> 
     <tbl_price_stamp_alt></tbl_price_stamp_alt> 
@@ -114,12 +114,12 @@
     <tbl_price_discount_web></tbl_price_discount_web> 
     <tbl_price_discount_feed></tbl_price_discount_feed> 
     <tbl_price_match_web_feed></tbl_price_match_web_feed> 
-    <tbl_price_finance></tbl_price_finance> 
+    <tbl_price_finance>[{"amount":159.99,"loanDuration":3,"monthlyInsuranceAmount":0.48,"monthlyAmountWithoutInsurance":54,"annualPercentageRate":14.759,"totalAmountWithoutInsurance":163.97,"totalAmountWithInsurance":165.41},{"amount":159.99,"loanDuration":4,"monthlyInsuranceAmount":0.48,"monthlyAmountWithoutInsurance":41,"annualPercentageRate":14.759,"totalAmountWithoutInsurance":164.96,"totalAmountWithInsurance":166.88},{"amount":159.99,"loanDuration":5,"monthlyInsuranceAmount":0.48,"monthlyAmountWithoutInsurance":33,"annualPercentageRate":14.759,"totalAmountWithoutInsurance":165.96,"totalAmountWithInsurance":168.36},{"amount":159.99,"loanDuration":6,"monthlyInsuranceAmount":0.48,"monthlyAmountWithoutInsurance":28,"annualPercentageRate":14.759,"totalAmountWithoutInsurance":166.91,"totalAmountWithInsurance":169.79},{"amount":159.99,"loanDuration":7,"monthlyInsuranceAmount":0.48,"monthlyAmountWithoutInsurance":24,"annualPercentageRate":14.759,"totalAmountWithoutInsurance":167.96,"totalAmountWithInsurance":171.32},{"amount":159.99,"loanDuration":8,"monthlyInsuranceAmount":0.48,"monthlyAmountWithoutInsurance":21,"annualPercentageRate":14.759,"totalAmountWithoutInsurance":169.01,"totalAmountWithInsurance":172.85},{"amount":159.99,"loanDuration":9,"monthlyInsuranceAmount":0.48,"monthlyAmountWithoutInsurance":19,"annualPercentageRate":14.759,"totalAmountWithoutInsurance":169.94,"totalAmountWithInsurance":174.26},{"amount":159.99,"loanDuration":10,"monthlyInsuranceAmount":0.48,"monthlyAmountWithoutInsurance":17,"annualPercentageRate":14.759,"totalAmountWithoutInsurance":171.07,"totalAmountWithInsurance":175.87},{"amount":159.99,"loanDuration":11,"monthlyInsuranceAmount":0.48,"monthlyAmountWithoutInsurance":16,"annualPercentageRate":14.759,"totalAmountWithoutInsurance":171.78,"totalAmountWithInsurance":177.06},{"amount":159.99,"loanDuration":12,"monthlyInsuranceAmount":0.48,"monthlyAmountWithoutInsurance":15,"annualPercentageRate":14.759,"totalAmountWithoutInsurance":172.58,"totalAmountWithInsurance":178.34}]</tbl_price_finance> 
     <tbl_price_rent></tbl_price_rent> 
-    <tbl_price_finance_duration_min></tbl_price_finance_duration_min> 
-    <tbl_price_finance_duration_max></tbl_price_finance_duration_max> 
-    <tbl_price_finance_date></tbl_price_finance_date> 
+    <tbl_price_finance_duration_min>3</tbl_price_finance_duration_min> 
+    <tbl_price_finance_duration_max>12</tbl_price_finance_duration_max> 
+    <tbl_price_finance_date>7/12/2022 1:13:31 PM</tbl_price_finance_date> 
     <tbl_price_rent_date></tbl_price_rent_date> 
-    <tbl_price_id>13568490</tbl_price_id> 
+    <tbl_price_id>17660385</tbl_price_id> 
 </price>
 </STORSPricingInformation>

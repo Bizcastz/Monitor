@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?><STORSModelInformation name="model">
 <model name="model">
-        <model_full_name>Samsung Smart Monitor M5 S27AM500NR M50A 27" LED Full</model_full_name>
-        <model_sku>999888T - 0</model_sku>
-        <manufacturer_name>Samsung</manufacturer_name>
-        <model_number>Samsung Smart Monitor M5 S27AM500NR M50A 27" LED Full</model_number>
+        <model_full_name>Asus VA249HE 23.8" Full HD Noir</model_full_name>
+        <model_sku>9188581 - 0</model_sku>
+        <manufacturer_name>Asus</manufacturer_name>
+        <model_number>Asus VA249HE 23.8" Full HD Noir</model_number>
         <model_color></model_color>
-        <model_category>TABLET</model_category>
+        <model_category>Tablet</model_category>
         <customer_rating>4.5</customer_rating>
-        <customer_reviews>2</customer_reviews>
+        <customer_reviews>13</customer_reviews>
         <model_segment></model_segment>
         <modelean_rating></modelean_rating>
-        <spareparts_enddate></spareparts_enddate>
+        <spareparts_enddate>SANS PIECE</spareparts_enddate>
         <processor_cpu></processor_cpu>
         <processor_speed></processor_speed>
         <genius_rating></genius_rating>
@@ -18,26 +18,26 @@
         <ram></ram>
         <wireless></wireless>
         <graphics_card brand=""></graphics_card>
-        <screen_resolution>1920 x 1080</screen_resolution>
-        <screen_type>HD Birghtview</screen_type>
-        <screen_size>27'</screen_size>
+        <screen_resolution> x </screen_resolution>
+        <screen_type></screen_type>
+        <screen_size></screen_size>
         <weight></weight>
-        <height></height>
-        <width></width>
-        <depth></depth>
+        <height>343</height>
+        <width>561,8</width>
+        <depth>45</depth>
         <usb_ports></usb_ports>
         <operating_system></operating_system>
-        <card_reader>no</card_reader>
-        <wireless3g>no</wireless3g>
+        <card_reader></card_reader>
+        <wireless3g></wireless3g>
         <connections></connections>
         <battery></battery>
         <optical></optical>
         <other></other>
         <accessories></accessories>
-        <touchscreen>-1</touchscreen>
-        <bluetooth>no</bluetooth>
+        <touchscreen>0</touchscreen>
+        <bluetooth></bluetooth>
         <webcam></webcam>
-        <energy_star>No</energy_star>
+        <energy_star></energy_star>
         <low_price_guarantee></low_price_guarantee>
         <plan_1yr></plan_1yr>
         <plan_1yr_price></plan_1yr_price>
@@ -46,79 +46,79 @@
         <plan_3yr></plan_3yr>
         <plan_3yr_price></plan_3yr_price>
         <chassis_code></chassis_code>
-        <chassis_sku>999888T</chassis_sku>
-        <chassis_sku_1>999888T</chassis_sku_1>
-        <price_sku_1>2400.87</price_sku_1>
+        <chassis_sku>9188581</chassis_sku>
+        <chassis_sku_1>9188581</chassis_sku_1>
+        <price_sku_1>159.99</price_sku_1>
         <chassis_count>1</chassis_count>
         <device_code_url>FnacTVs.com</device_code_url> 
      <shape_duration_onscreen_inseconds>120</shape_duration_onscreen_inseconds>
  <!-- DUMP OF TYPE TABLE --> 
-    <type_id>28542</type_id> 
-    <type_name>Samsung Smart Monitor M5 S27AM500NR M50A 27" LED Full</type_name> 
-    <type_description>Samsung Smart Monitor M5 S27AM500NR M50A 27" LED Full</type_description> 
+    <type_id>27072</type_id> 
+    <type_name>Asus VA249HE 23.8" Full HD Noir</type_name> 
+    <type_description>Ecran PC Asus VA249HE 23.8" Full HD Noir</type_description> 
     <playlist_id>0</playlist_id> 
     <tablet_asset_id>0</tablet_asset_id> 
-    <type_modified_datetime>6/15/2022 4:35:15 PM</type_modified_datetime> 
-    <type_modified_datetime_oa>6/17/2022 4:35:15 PM</type_modified_datetime_oa> 
-    <type_create_datetime>2/16/2022 12:38:45 PM</type_create_datetime> 
+    <type_modified_datetime>7/11/2022 5:11:00 AM</type_modified_datetime> 
+    <type_modified_datetime_oa></type_modified_datetime_oa> 
+    <type_create_datetime>7/29/2021 4:06:37 AM</type_create_datetime> 
     <type_brandId>22</type_brandId> 
-    <type_category_desc>PC Interactive</type_category_desc> 
+    <type_category_desc>MONITOR</type_category_desc> 
     <type_category>0</type_category> 
     <type_customer_rating>4.5</type_customer_rating> 
-    <type_modelname_value>Samsung Smart Monitor M5 S27AM500NR M50A 27" LED Full</type_modelname_value> 
-    <type_modeldesc_value> Select Model Category </type_modeldesc_value> 
-    <type_modelnumber_value>Samsung Smart Monitor M5 S27AM500NR M50A 27" LED Full</type_modelnumber_value> 
-    <type_modeltype_value>0</type_modeltype_value> 
-    <type_modeltype2_value>TABLET</type_modeltype2_value> 
+    <type_modelname_value>Ecran PC  VA249HE 23.8" Full HD Noir</type_modelname_value> 
+    <type_modeldesc_value>Ecran PC Asus VA249HE 23.8" Full HD Noir</type_modeldesc_value> 
+    <type_modelnumber_value>Asus VA249HE 23.8" Full HD Noir</type_modelnumber_value> 
+    <type_modeltype_value>MONITEUR</type_modeltype_value> 
+    <type_modeltype2_value>Tablet</type_modeltype2_value> 
     <type_modelupc_value></type_modelupc_value> 
     <type_modelcolor_value></type_modelcolor_value> 
-    <type_manufacturername_value>Samsung</type_manufacturername_value> 
+    <type_manufacturername_value>Asus</type_manufacturername_value> 
     <type_manufacturerpartnumber_value></type_manufacturerpartnumber_value> 
     <type_manufacturerlogo_value></type_manufacturerlogo_value> 
     <type_memorysize_value></type_memorysize_value> 
-    <type_memorysize_rating>0</type_memorysize_rating> 
+    <type_memorysize_rating></type_memorysize_rating> 
     <type_memorytype_value></type_memorytype_value> 
     <type_disksize_value></type_disksize_value> 
-    <type_disksize_rating>0</type_disksize_rating> 
+    <type_disksize_rating></type_disksize_rating> 
     <type_diskspeed_value></type_diskspeed_value> 
     <type_os_value></type_os_value> 
     <type_cpu_value></type_cpu_value> 
-    <type_cpubrand_value>Intel</type_cpubrand_value> 
+    <type_cpubrand_value></type_cpubrand_value> 
     <type_cputype_value></type_cputype_value> 
     <type_cpuspeed_value></type_cpuspeed_value> 
-    <type_cpurating_value>0</type_cpurating_value> 
+    <type_cpurating_value></type_cpurating_value> 
     <type_cpuinfo_value></type_cpuinfo_value> 
-    <type_cpubadge_value>Atom</type_cpubadge_value> 
-    <type_cpubadge_num_value>2</type_cpubadge_num_value> 
+    <type_cpubadge_value></type_cpubadge_value> 
+    <type_cpubadge_num_value></type_cpubadge_num_value> 
     <type_geniusrating_value></type_geniusrating_value> 
     <type_geniusrating_rating></type_geniusrating_rating> 
     <type_videocard_value></type_videocard_value> 
     <type_videomemory_value></type_videomemory_value> 
-    <type_videotype_value>HD Birghtview</type_videotype_value> 
+    <type_videotype_value></type_videotype_value> 
     <type_videodesc_value></type_videodesc_value> 
-    <type_videosize_value>27'</type_videosize_value> 
-    <type_videores_value>1920 x 1080</type_videores_value> 
-    <type_dimheight_value></type_dimheight_value> 
-    <type_dimwidth_value></type_dimwidth_value> 
-    <type_dimdepth_value></type_dimdepth_value> 
+    <type_videosize_value></type_videosize_value> 
+    <type_videores_value> x </type_videores_value> 
+    <type_dimheight_value>343</type_dimheight_value> 
+    <type_dimwidth_value>561,8</type_dimwidth_value> 
+    <type_dimdepth_value>45</type_dimdepth_value> 
     <type_dimweight_value></type_dimweight_value> 
     <type_optical_value></type_optical_value> 
     <type_media_value></type_media_value> 
     <type_ethernet_value></type_ethernet_value> 
     <type_wireless_value></type_wireless_value> 
-    <type_3g_value>no</type_3g_value> 
-    <type_4g_value>no</type_4g_value> 
+    <type_3g_value></type_3g_value> 
+    <type_4g_value></type_4g_value> 
     <type_modem_value></type_modem_value> 
-    <type_bluetooth_value>no</type_bluetooth_value> 
+    <type_bluetooth_value></type_bluetooth_value> 
     <type_webcam_value></type_webcam_value> 
     <type_sound_value></type_sound_value> 
     <type_other_value></type_other_value> 
     <type_conn_value></type_conn_value> 
     <type_usb_value></type_usb_value> 
     <type_software_value></type_software_value> 
-    <type_modelsku_value>999888T</type_modelsku_value> 
+    <type_modelsku_value>9188581</type_modelsku_value> 
     <type_model_bios_name></type_model_bios_name> 
-    <type_cardreader_value>no</type_cardreader_value> 
+    <type_cardreader_value></type_cardreader_value> 
     <type_fingerprintreader_value></type_fingerprintreader_value> 
     <type_dedicatedgraphicsmemory_value></type_dedicatedgraphicsmemory_value> 
     <type_blueray_value></type_blueray_value> 
@@ -130,30 +130,30 @@
     <type_new_model>1</type_new_model> 
     <type_dimweight_rating>0</type_dimweight_rating> 
     <type_active>1</type_active> 
-    <type_attachment1_id>0</type_attachment1_id> 
-    <type_attachment2_id>0</type_attachment2_id> 
-    <type_attachment3_id>0</type_attachment3_id> 
-    <type_attachment4_id>0</type_attachment4_id> 
-    <type_attachment5_id>0</type_attachment5_id> 
-    <type_attachment6_id>0</type_attachment6_id> 
-    <type_attachment7_id>0</type_attachment7_id> 
-    <type_attachment8_id>0</type_attachment8_id> 
+    <type_attachment1_id></type_attachment1_id> 
+    <type_attachment2_id></type_attachment2_id> 
+    <type_attachment3_id></type_attachment3_id> 
+    <type_attachment4_id></type_attachment4_id> 
+    <type_attachment5_id></type_attachment5_id> 
+    <type_attachment6_id></type_attachment6_id> 
+    <type_attachment7_id></type_attachment7_id> 
+    <type_attachment8_id></type_attachment8_id> 
     <type_base_score>0</type_base_score> 
     <type_cpu_score>0</type_cpu_score> 
     <type_memory_score>0</type_memory_score> 
     <type_disk_score>0</type_disk_score> 
     <type_graphics_score>0</type_graphics_score> 
     <type_gaming_score>0</type_gaming_score> 
-    <type_graphicsmemory_winsat></type_graphicsmemory_winsat> 
-    <type_videomemory_winsat></type_videomemory_winsat> 
-    <type_systemvideomemory_winsat></type_systemvideomemory_winsat> 
+    <type_graphicsmemory_winsat>0</type_graphicsmemory_winsat> 
+    <type_videomemory_winsat>0</type_videomemory_winsat> 
+    <type_systemvideomemory_winsat>0</type_systemvideomemory_winsat> 
     <type_chassis></type_chassis> 
     <type_inventory>0</type_inventory> 
-    <type_touchscreen>-1</type_touchscreen> 
-    <type_cpubadge_display>Atom</type_cpubadge_display> 
+    <type_touchscreen>0</type_touchscreen> 
+    <type_cpubadge_display></type_cpubadge_display> 
     <type_modelnum_value></type_modelnum_value> 
-    <type_customer_reviews>2</type_customer_reviews> 
-    <type_product_id></type_product_id> 
+    <type_customer_reviews>13</type_customer_reviews> 
+    <type_product_id>15112985</type_product_id> 
     <type_tv_type></type_tv_type> 
     <type_tv_class></type_tv_class> 
     <type_tv_class_id></type_tv_class_id> 
@@ -167,10 +167,10 @@
     <type_smart_tv></type_smart_tv> 
     <type_component_video></type_component_video> 
     <type_dvi></type_dvi> 
-    <type_hdmi>2</type_hdmi> 
+    <type_hdmi>1</type_hdmi> 
     <type_pc_input></type_pc_input> 
     <type_vchip></type_vchip> 
-    <type_energy_star>No</type_energy_star> 
+    <type_energy_star></type_energy_star> 
     <type_headphone></type_headphone> 
     <type_plan_1yr></type_plan_1yr> 
     <type_plan_1yr_price></type_plan_1yr_price> 
@@ -181,12 +181,12 @@
     <type_low_price_guarantee></type_low_price_guarantee> 
     <type_segment_type></type_segment_type> 
     <type_tablet_rooted>0</type_tablet_rooted> 
-    <type_modelean>0</type_modelean> 
+    <type_modelean>4712900891133</type_modelean> 
     <type_modelean_rating></type_modelean_rating> 
-    <type_spareparts_enddate></type_spareparts_enddate> 
+    <type_spareparts_enddate>SANS PIECE</type_spareparts_enddate> 
     <type_width_with_stand_value></type_width_with_stand_value> 
-    <type_videosize_inch_value>27</type_videosize_inch_value> 
-    <type_videosize_cm_value>68</type_videosize_cm_value> 
+    <type_videosize_inch_value></type_videosize_inch_value> 
+    <type_videosize_cm_value></type_videosize_cm_value> 
     <type_hdr></type_hdr> 
     <type_tuner></type_tuner> 
     <type_screen_backlighting></type_screen_backlighting> 
@@ -210,7 +210,7 @@
     <type_energy_low_value></type_energy_low_value> 
     <type_energy_high_value></type_energy_high_value> 
     <type_energy_range_value></type_energy_range_value> 
-    <type_disk_interface></type_disk_interface> 
+    <type_disk_interface>0</type_disk_interface> 
     <type_disk_other></type_disk_other> 
     <type_plan_4yr></type_plan_4yr> 
     <type_plan_4yr_price></type_plan_4yr_price> 
@@ -219,15 +219,15 @@
     <type_energy_kwh></type_energy_kwh> 
     <type_viewing_distance></type_viewing_distance> 
     <type_offers_message></type_offers_message> 
-    <type_formfactor></type_formfactor> 
-    <type_url_sku></type_url_sku> 
+    <type_formfactor>MONITOR</type_formfactor> 
+    <type_url_sku> https://www.fnac.com/a15112985</type_url_sku> 
     <type_price_display></type_price_display> 
     <type_sim_value></type_sim_value> 
     <type_segment_color></type_segment_color> 
     <type_resolution_value></type_resolution_value> 
     <type_recommend_value></type_recommend_value> 
     <type_modeldisplay_value></type_modeldisplay_value> 
-    <type_subcategory_value></type_subcategory_value> 
+    <type_subcategory_value>MONITEUR</type_subcategory_value> 
     <type_gps_value></type_gps_value> 
     <type_nfc_value></type_nfc_value> 
     <type_mobilenetwork_value></type_mobilenetwork_value> 
@@ -236,7 +236,7 @@
     <type_audio_value></type_audio_value> 
     <type_dlna_value></type_dlna_value> 
     <type_plan_name></type_plan_name> 
-    <type_active_date_change></type_active_date_change> 
+    <type_active_date_change>7/11/2022 5:11:00 AM</type_active_date_change> 
     <type_energy_head></type_energy_head> 
     <type_energy_body></type_energy_body> 
     <type_energy_member></type_energy_member> 
@@ -251,20 +251,20 @@
     <type_accelerometer_value></type_accelerometer_value> 
     <type_gyroscope_value></type_gyroscope_value> 
     <type_cellular_value></type_cellular_value> 
-    <type_utilization_title></type_utilization_title> 
-    <type_utilization_text></type_utilization_text> 
-    <type_utilization_buttons></type_utilization_buttons> 
+    <type_utilization_title>UTILISATION</type_utilization_title> 
+    <type_utilization_text>MULTIMEDIA~BUREAUTIQUE~STREAMING~GAMER~PHOTO~GRAPHISME~PRODUCTION</type_utilization_text> 
+    <type_utilization_buttons>3111111</type_utilization_buttons> 
     <type_videobrand_value></type_videobrand_value> 
     <type_utilization_name></type_utilization_name> 
     <type_exclusivity></type_exclusivity> 
     <type_lab></type_lab> 
     <type_environment_value></type_environment_value> 
     <type_energy_legal></type_energy_legal> 
-    <type_category_value></type_category_value> 
-    <type_universe_value></type_universe_value> 
-    <type_gamer></type_gamer> 
-    <type_photo_url></type_photo_url> 
-    <type_photo_name></type_photo_name> 
+    <type_category_value>Moniteur</type_category_value> 
+    <type_universe_value>Informatique</type_universe_value> 
+    <type_gamer>0</type_gamer> 
+    <type_photo_url>https://static.fnac-static.com/multimedia/Images/FR/MDM/05/e6/a7/11003397/1505-1/tsp20220628212921/Ecran-PC-Asus-VA249HE-23-8-Full-HD-Noir.jpg</type_photo_url> 
+    <type_photo_name>https://bizcastzcloud.com/photos/FNAC__9188581_Ecran-PC-Asus-VA249HE-23-8-Full-HD-Noir.jpg</type_photo_name> 
     <type_cpuseries_number></type_cpuseries_number> 
     <type_memorysize_value_number></type_memorysize_value_number> 
     <type_disksize_value_number></type_disksize_value_number> 
@@ -277,28 +277,28 @@
     <type_formfactor_segment></type_formfactor_segment> 
     <type_display_resolution></type_display_resolution> 
     <type_display_resolution_title></type_display_resolution_title> 
-    <type_display_resolution_unit></type_display_resolution_unit> 
-    <type_display_resolution_horizontal></type_display_resolution_horizontal> 
-    <type_display_resolution_vertical></type_display_resolution_vertical> 
+    <type_display_resolution_unit>pixels</type_display_resolution_unit> 
+    <type_display_resolution_horizontal>0</type_display_resolution_horizontal> 
+    <type_display_resolution_vertical>0</type_display_resolution_vertical> 
     <type_display_frequency></type_display_frequency> 
-    <type_display_frequency_title></type_display_frequency_title> 
+    <type_display_frequency_title>FRÉQUENCE</type_display_frequency_title> 
     <type_display_frequency_unit></type_display_frequency_unit> 
-    <type_display_response_time></type_display_response_time> 
-    <type_display_response_title></type_display_response_title> 
-    <type_display_response_unit></type_display_response_unit> 
-    <type_display_colors></type_display_colors> 
-    <type_display_colors_title></type_display_colors_title> 
+    <type_display_response_time>5</type_display_response_time> 
+    <type_display_response_title>RÉSPONSE</type_display_response_title> 
+    <type_display_response_unit>millisecondes</type_display_response_unit> 
+    <type_display_colors>,</type_display_colors> 
+    <type_display_colors_title>COULEURS</type_display_colors_title> 
     <type_display_colors_unit></type_display_colors_unit> 
-    <type_display_angle></type_display_angle> 
-    <type_display_angle_horizontal></type_display_angle_horizontal> 
-    <type_display_angle_vertical></type_display_angle_vertical> 
-    <type_display_angle_unit></type_display_angle_unit> 
-    <type_display_contrast></type_display_contrast> 
-    <type_display_contrast_title></type_display_contrast_title> 
+    <type_display_angle>178 ° | 178 °</type_display_angle> 
+    <type_display_angle_horizontal>178 °</type_display_angle_horizontal> 
+    <type_display_angle_vertical>178 °</type_display_angle_vertical> 
+    <type_display_angle_unit>h | v</type_display_angle_unit> 
+    <type_display_contrast>3000 : 1</type_display_contrast> 
+    <type_display_contrast_title>CONTRASTE</type_display_contrast_title> 
     <type_display_contrast_unit></type_display_contrast_unit> 
-    <type_display_luminosity></type_display_luminosity> 
-    <type_display_luminosity_title></type_display_luminosity_title> 
-    <type_display_luminosity_unit></type_display_luminosity_unit> 
+    <type_display_luminosity>250</type_display_luminosity> 
+    <type_display_luminosity_title>LUMINOSITÉ</type_display_luminosity_title> 
+    <type_display_luminosity_unit>Cd/m²</type_display_luminosity_unit> 
     <type_display_curved></type_display_curved> 
     <type_display_curved_title></type_display_curved_title> 
     <type_display_curved_unit></type_display_curved_unit> 
@@ -306,9 +306,9 @@
     <type_display_pitch_title></type_display_pitch_title> 
     <type_display_pitch_unit></type_display_pitch_unit> 
     <type_display_connections></type_display_connections> 
-    <type_display_connections_title></type_display_connections_title> 
-    <type_display_connections_line1></type_display_connections_line1> 
-    <type_display_connections_line2></type_display_connections_line2> 
+    <type_display_connections_title>ENTRÉE(S)</type_display_connections_title> 
+    <type_display_connections_line1>1 HDMI</type_display_connections_line1> 
+    <type_display_connections_line2>1 HDCP</type_display_connections_line2> 
     <type_display_connections_line3></type_display_connections_line3> 
     <type_display_compatibility></type_display_compatibility> 
     <type_display_compatibility_string></type_display_compatibility_string> 
@@ -322,17 +322,17 @@
     <type_display_vesa></type_display_vesa> 
     <type_display_vesa_title></type_display_vesa_title> 
     <type_display_vesa_unit></type_display_vesa_unit> 
-    <type_customer_rating_title></type_customer_rating_title> 
-    <type_customer_rating_denominator></type_customer_rating_denominator> 
+    <type_customer_rating_title>NOTES</type_customer_rating_title> 
+    <type_customer_rating_denominator>5</type_customer_rating_denominator> 
     <type_lab_title></type_lab_title> 
     <type_lab_denominator></type_lab_denominator> 
     <type_dimension_title></type_dimension_title> 
     <type_dimension_string></type_dimension_string> 
-    <type_display_angle_title></type_display_angle_title> 
-    <type_display_total></type_display_total> 
+    <type_display_angle_title>ANGLE DE VISION</type_display_angle_title> 
+    <type_display_total>1</type_display_total> 
     <type_energy_url></type_energy_url> 
-    <type_energy_name></type_energy_name> 
-    <type_specs></type_specs> 
-    <type_benefits></type_benefits> 
+    <type_energy_name>4712900891133-energy.jpg</type_energy_name> 
+    <type_specs>"~ cm|RESOLUTION~FULL HD~~1|DALLE~TN~1|RESPONSE~5~millisecondes~2|SYNCHRONISATION~~~~1|CONNECTIQUE~1 HDMI~~~~~~~~|CONSOMMATION~~~|CONTRASTE~3000 : 1~|LUMINOSITE~250~Cd/m²~1|ANGLE DE VISION~178 ° | 178 °~h | v|RAPPORT~~~|FREQUENCE~0~~1|DIMENSIONS (L X H X L)~561,8 x 343 x 45</type_specs> 
+    <type_benefits>BÉNÉFICES|ANTI-BLEUE~OUI|ANTI-REFLET~OUI|HDR~NON|INCLINABLE~OUI|PIED ADJUST~NON|HAUT PARLEUR~NON|PIVOTABLE~NON|FIXATION~NON|WIFI~NON|BLUETOOTH~NON|WEBCAM~NON|TACTILE~NON</type_benefits> 
 </model>
 </STORSModelInformation>
